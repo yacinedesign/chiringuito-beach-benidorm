@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Chiringuito Beach Benidorm · Brasa, cócteles y mar en la Playa de Levante</title>
+<meta name="description" content="Chiringuito Beach Benidorm: cocina mediterránea, carne de León a la parrilla y cócteles en primera línea de la Playa de Levante. Av. de Madrid 22. Abierto todos los días de 11:00 a 24:00.">
+<meta name="theme-color" content="#0F1F1D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F1F1D'/%3E%3Cpath d='M18 34a14 14 0 0 1 28 0z' fill='%23EE5A2F'/%3E%3Cpath d='M12 42c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3' fill='none' stroke='%23F7F2E9' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Chiringuito Beach Benidorm",
+  "description": "Cocina mediterránea, carne de León a la parrilla y cócteles en primera línea de la Playa de Levante.",
+  "servesCuisine": ["Mediterránea", "Parrilla", "Tapas", "Cócteles"],
+  "priceRange": "20-30 €",
+  "telephone": "+34 660 19 25 19",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. de Madrid, 22",
+    "addressLocality": "Benidorm",
+    "postalCode": "03503",
+    "addressRegion": "Alicante",
+    "addressCountry": "ES"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 38.5348099, "longitude": -0.1114478 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "11:00",
+    "closes": "23:59"
+  }],
+  "hasMenu": "https://smartmenu.agorapos.com/?id=4tktbfeg",
+  "acceptsReservations": true,
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "1385" },
+  "sameAs": ["https://www.instagram.com/chiringuitobeachbenidorm/"]
+}
+</script>
+<style>
+:root{
+  --ink:#0F1F1D; --ink-2:#17302C; --sea:#1C7C74; --sea-2:#2BA39A;
+  --foam:#F7F2E9; --sand:#EFE4D2; --ember:#EE5A2F; --ember-2:#FF7A45;
+  --text:#1C2422; --muted:#5D6B67; --line:rgba(15,31,29,.12);
+  --display:"Bricolage Grotesque", system-ui, sans-serif;
+  --body:"Onest", system-ui, sans-serif;
+  --r:22px; --wrap:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--foam);color:var(--text);font:400 17px/1.6 var(--body);overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:750;letter-spacing:-.02em;line-height:1.02;margin:0}
+.wrap{width:min(100% - 32px, var(--wrap));margin-inline:auto}
+.eyebrow{font:600 12.5px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--sea)}
+.eyebrow.light{color:var(--ember-2)}
+.sec{padding:clamp(72px,10vw,128px) 0}
+.sec-head{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:end;justify-content:space-between;margin-bottom:clamp(32px,5vw,56px)}
+.sec-head h2{font-size:clamp(36px,5.4vw,64px);max-width:14ch;margin-top:14px}
+.sec-head p{max-width:44ch;color:var(--muted);margin:0}
+html[lang="en"] [lang="es"], html[lang="es"] [lang="en"]{display:none !important}
+
+/* ---------- Header ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:50;color:var(--foam);transition:color .3s}
+.hdr::before{content:"";position:absolute;inset:0;background:rgba(15,31,29,.0);transition:background .35s, backdrop-filter .35s;-webkit-backdrop-filter:blur(0);backdrop-filter:blur(0);z-index:-1}
+.hdr.solid::before{background:rgba(15,31,29,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;height:76px;gap:20px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo svg{width:38px;height:38px;flex:none}
+.logo b{display:block;font:750 19px/1 var(--display);letter-spacing:-.01em}
+.logo small{display:block;font:600 10px/1 var(--body);letter-spacing:.32em;margin-top:5px;opacity:.75}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{text-decoration:none;font-weight:500;font-size:15px;opacity:.88;transition:opacity .2s}
+.nav a:hover{opacity:1}
+.lang{display:inline-flex;border:1px solid rgba(247,242,233,.35);border-radius:99px;padding:3px}
+.lang button{all:unset;cursor:pointer;font:600 12px/1 var(--body);letter-spacing:.06em;padding:7px 10px;border-radius:99px;opacity:.7}
+.lang button[aria-pressed="true"]{background:var(--foam);color:var(--ink);opacity:1}
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 15.5px/1 var(--body);text-decoration:none;border:0;cursor:pointer;border-radius:99px;padding:15px 22px;transition:transform .2s, background .2s, color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-ember{background:var(--ember);color:#fff}
+.btn-ember:hover{background:var(--ember-2)}
+.btn-ghost{background:rgba(247,242,233,.12);color:var(--foam);box-shadow:inset 0 0 0 1px rgba(247,242,233,.4)}
+.btn-ghost:hover{background:rgba(247,242,233,.2)}
+.btn-dark{background:var(--ink);color:var(--foam)}
+.btn-sm{padding:11px 16px;font-size:14px}
+.burger{all:unset;display:none;cursor:pointer;width:44px;height:44px;border-radius:12px;flex-direction:column;justify-content:center}
+.burger span{display:block;width:22px;height:2px;background:currentColor;margin:5px auto;transition:transform .3s, opacity .3s}
+.menu-open .burger span:nth-child(1){transform:translateY(12px) rotate(45deg)}
+.menu-open .burger span:nth-child(2){opacity:0}
+.menu-open .burger span:nth-child(3){transform:translateY(-12px) rotate(-45deg)}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:100svh;min-height:max(640px,100svh);display:flex;align-items:flex-end;color:var(--foam);isolation:isolate;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:-2}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 60%;transform:scale(1.06);animation:settle 2.4s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes settle{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,31,29,.5) 0%,rgba(15,31,29,0) 65%),linear-gradient(180deg,rgba(15,31,29,.55) 0%,rgba(15,31,29,.15) 30%,rgba(15,31,29,.35) 55%,rgba(15,31,29,.92) 100%)}
+.hero-in{padding:140px 0 clamp(40px,6vw,72px)}
+.pill{display:inline-flex;align-items:center;gap:9px;font:600 13px/1 var(--body);letter-spacing:.04em;background:rgba(247,242,233,.14);box-shadow:inset 0 0 0 1px rgba(247,242,233,.28);border-radius:99px;padding:9px 14px}
+.dot{width:8px;height:8px;border-radius:50%;background:#9AA5A2}
+.dot.on{background:#5EE0A0;box-shadow:0 0 0 4px rgba(94,224,160,.22)}
+.hero h1{font-size:clamp(46px,8.4vw,118px);margin:22px 0 22px;max-width:12ch}
+.hero h1 em{font-style:normal;color:var(--ember-2)}
+.hero h1 .soft{color:#BFE9E3}
+.hero-lead{font-size:clamp(17px,1.6vw,20px);max-width:52ch;margin:0 0 30px;color:rgba(247,242,233,.9)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:clamp(40px,6vw,64px);padding-top:22px;border-top:1px solid rgba(247,242,233,.22);font-size:15px;color:rgba(247,242,233,.86)}
+.hero-meta b{color:var(--foam);font-weight:600}
+.stars{color:#FFC75A;letter-spacing:1px}
+
+/* ---------- Highlights ---------- */
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{position:relative;border-radius:var(--r);overflow:hidden;min-height:440px;color:var(--foam);display:flex;align-items:flex-end;isolation:isolate}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.card:hover img{transform:scale(1.05)}
+.card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 35%,rgba(15,31,29,.9))}
+.card div{padding:26px}
+.card .num{font:700 13px/1 var(--body);letter-spacing:.2em;color:var(--ember-2)}
+.card h3{font-size:30px;margin:12px 0 8px}
+.card p{margin:0;font-size:15.5px;color:rgba(247,242,233,.85)}
+
+/* ---------- Menu ---------- */
+.menu-sec{background:var(--ink);color:var(--foam)}
+.menu-sec .sec-head p{color:rgba(247,242,233,.72)}
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;margin-bottom:34px;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar{display:none}
+.tab{all:unset;cursor:pointer;flex:none;font:600 14.5px/1 var(--body);padding:13px 18px;border-radius:99px;box-shadow:inset 0 0 0 1px rgba(247,242,233,.25);color:rgba(247,242,233,.82);transition:background .2s,color .2s}
+.tab:hover{color:var(--foam);box-shadow:inset 0 0 0 1px rgba(247,242,233,.55)}
+.tab[aria-selected="true"]{background:var(--foam);color:var(--ink);box-shadow:none}
+.menu-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr);gap:clamp(24px,4vw,56px);align-items:start}
+.menu-photo{position:sticky;top:100px;border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;background:var(--ink-2)}
+.menu-photo img{width:100%;height:100%;object-fit:cover;transition:opacity .45s}
+.menu-photo figcaption{position:absolute;left:16px;bottom:16px;right:16px;font-size:13px;color:rgba(247,242,233,.85)}
+.menu-photo::after{content:"";position:absolute;inset:50% 0 0;background:linear-gradient(transparent,rgba(15,31,29,.75));pointer-events:none}
+.items{list-style:none;margin:0;padding:0}
+.item{padding:20px 0;border-bottom:1px solid rgba(247,242,233,.12)}
+.item:first-child{padding-top:4px}
+.item-top{display:flex;align-items:baseline;gap:12px}
+.item-name{font:650 20px/1.25 var(--display);letter-spacing:-.005em}
+.item-lead{flex:1;border-bottom:1px dotted rgba(247,242,233,.3);transform:translateY(-5px);min-width:20px}
+.item-price{font:600 17px/1 var(--body);color:var(--ember-2);white-space:nowrap}
+.item-desc{margin:6px 0 0;color:rgba(247,242,233,.68);font-size:15px;max-width:58ch}
+.tag{display:inline-block;font:600 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;background:rgba(238,90,47,.18);color:var(--ember-2);border-radius:99px;padding:5px 8px;margin-left:8px;vertical-align:3px}
+.cocktails{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
+.cocktails .item-name{font-size:18px}
+.menu-foot{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;margin-top:34px;padding:22px 24px;border-radius:18px;background:var(--ink-2);font-size:15px;color:rgba(247,242,233,.8)}
+.panel[hidden]{display:none}
+
+/* ---------- León ---------- */
+.leon{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.leon-img{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:5/6}
+.leon-img img{width:100%;height:100%;object-fit:cover}
+.leon-badge{position:absolute;right:18px;bottom:18px;background:var(--foam);color:var(--ink);border-radius:18px;padding:16px 18px;max-width:230px;font-size:14px;line-height:1.4}
+.leon-badge b{display:block;font:750 30px/1 var(--display);color:var(--ember);margin-bottom:4px}
+.leon h2{font-size:clamp(38px,5.2vw,62px);margin:14px 0 20px}
+.leon p{color:var(--muted);margin:0 0 16px;max-width:52ch}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+.fact{background:#fff;border-radius:18px;padding:18px;box-shadow:0 1px 0 var(--line)}
+.fact b{display:block;font:750 28px/1 var(--display);color:var(--sea)}
+.fact span{display:block;font-size:13.5px;color:var(--muted);margin-top:8px;line-height:1.35}
+
+/* ---------- Sunset ---------- */
+.sunset{position:relative;color:var(--foam);isolation:isolate;overflow:hidden}
+.sunset>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.sunset::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,31,29,.9) 0%,rgba(15,31,29,.55) 55%,rgba(15,31,29,.15) 100%)}
+.sunset .wrap{padding:clamp(90px,12vw,150px) 0}
+.sunset h2{font-size:clamp(40px,6vw,76px);max-width:11ch;margin:14px 0 18px}
+.sunset p{max-width:46ch;color:rgba(247,242,233,.86);margin:0 0 26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;max-width:560px;margin-bottom:30px}
+.chip{font:500 14px/1 var(--body);padding:10px 14px;border-radius:99px;background:rgba(247,242,233,.12);box-shadow:inset 0 0 0 1px rgba(247,242,233,.25)}
+
+/* ---------- Reviews ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev{background:#fff;border-radius:var(--r);padding:28px;box-shadow:0 1px 0 var(--line);display:flex;flex-direction:column;gap:18px}
+.rev q{font:500 19px/1.45 var(--display);letter-spacing:-.005em;quotes:"“" "”"}
+.rev footer{margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.rev footer b{color:var(--text);font-weight:600}
+.score{display:flex;align-items:center;gap:18px;margin-bottom:0}
+.score b{font:750 64px/1 var(--display);color:var(--ink)}
+.score small{display:block;color:var(--muted);font-size:14px}
+
+/* ---------- Booking ---------- */
+.book{background:var(--sand)}
+.book-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:start}
+.book h2{font-size:clamp(38px,5.2vw,62px);margin:14px 0 18px}
+.book-info p{color:var(--muted);max-width:44ch}
+.contact{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:12px}
+.contact a,.contact div{display:flex;gap:14px;align-items:center;text-decoration:none;background:rgba(255,255,255,.6);padding:14px 16px;border-radius:16px}
+.contact svg{width:22px;height:22px;flex:none;color:var(--sea)}
+.contact small{display:block;color:var(--muted);font-size:13px}
+form{background:#fff;border-radius:var(--r);padding:clamp(22px,3vw,34px);box-shadow:0 20px 50px -30px rgba(15,31,29,.35)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:600;font-size:14px;margin:0 0 16px}
+input,select,textarea{display:block;width:100%;margin-top:7px;font:400 16px/1.3 var(--body);color:var(--text);background:var(--foam);border:1px solid transparent;border-radius:12px;padding:13px 14px;outline:none;transition:border-color .2s, background .2s}
+input:focus,select:focus,textarea:focus{border-color:var(--sea);background:#fff}
+textarea{resize:vertical;min-height:84px}
+form .btn{width:100%;justify-content:center;margin-top:4px}
+.form-note{font-size:13px;color:var(--muted);margin:12px 0 0;text-align:center}
+
+/* ---------- FAQ ---------- */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,5vw,72px)}
+.faq-grid h2{font-size:clamp(36px,5vw,58px);margin-top:14px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 0;font:650 19px/1.3 var(--display)}
+summary::-webkit-details-marker{display:none}
+summary i{flex:none;width:30px;height:30px;border-radius:50%;background:var(--sand);position:relative;transition:transform .3s, background .3s}
+summary i::before,summary i::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;background:var(--ink);transform:translate(-50%,-50%)}
+summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .3s}
+details[open] summary i{background:var(--ember)}
+details[open] summary i::before,details[open] summary i::after{background:#fff}
+details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+details p{margin:0 0 22px;color:var(--muted);max-width:60ch}
+
+/* ---------- Visit ---------- */
+.visit{display:grid;grid-template-columns:1.3fr 1fr;gap:18px}
+.map{border-radius:var(--r);overflow:hidden;min-height:420px;background:var(--sand)}
+.map iframe{width:100%;height:100%;min-height:420px;border:0;display:block;filter:saturate(.9)}
+.hours{background:var(--ink);color:var(--foam);border-radius:var(--r);padding:clamp(24px,3vw,34px)}
+.hours h3{font-size:30px;margin:12px 0 18px}
+.hours ul{list-style:none;padding:0;margin:0 0 22px}
+.hours li{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(247,242,233,.12);font-size:15.5px;color:rgba(247,242,233,.8)}
+.hours li.today{color:var(--foam);font-weight:600}
+.hours li.today > span:first-child::after{content:" ●";color:var(--ember-2);font-size:11px;vertical-align:2px}
+.hours .addr{font-size:15px;color:rgba(247,242,233,.8);margin:0 0 20px}
+.status{margin-bottom:6px}
+
+/* ---------- Footer ---------- */
+.ftr{background:var(--ink);color:rgba(247,242,233,.7);padding:56px 0 34px;font-size:14.5px}
+.ftr-top{display:flex;flex-wrap:wrap;gap:28px;justify-content:space-between;align-items:center;padding-bottom:30px;border-bottom:1px solid rgba(247,242,233,.12);color:var(--foam)}
+.ftr-links{display:flex;flex-wrap:wrap;gap:12px 26px}
+.ftr-links a{text-decoration:none;color:rgba(247,242,233,.8)}
+.ftr-bot{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;padding-top:24px}
+.ftr-bot a{text-decoration:none}
+
+/* ---------- WhatsApp float ---------- */
+.wa{position:fixed;right:18px;bottom:18px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(0,0,0,.45);transition:transform .25s}
+.wa:hover{transform:scale(1.07)}
+.wa svg{width:30px;height:30px}
+
+/* ---------- Reveal ---------- */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.hero-bg img{animation:none;transform:none}html{scroll-behavior:auto}}
+
+/* ---------- Responsive ---------- */
+@media (max-width:980px){
+  .trio{grid-template-columns:1fr 1fr}
+  .trio .card:last-child{grid-column:1/-1;min-height:360px}
+  .menu-grid{grid-template-columns:1fr}
+  .menu-photo{position:relative;top:0;aspect-ratio:16/9}
+  .leon,.book-grid,.faq-grid,.visit{grid-template-columns:1fr}
+  .revs{grid-template-columns:1fr 1fr}
+  .revs .rev:nth-child(n+5){display:none}
+}
+@media (max-width:860px){
+  .burger{display:flex}
+  .nav{position:fixed;inset:76px 0 auto 0;flex-direction:column;align-items:flex-start;gap:0;background:var(--ink);padding:10px 16px 26px;transform:translateY(-12px);opacity:0;visibility:hidden;transition:opacity .25s, transform .25s, visibility .25s;max-height:calc(100svh - 76px);overflow:auto}
+  .nav a{font-size:20px;font-family:var(--display);font-weight:650;padding:14px 0;width:100%;border-bottom:1px solid rgba(247,242,233,.1)}
+  .nav .btn{margin-top:18px;font-family:var(--body);font-size:15.5px;width:auto;border:0;padding:15px 22px}
+  .menu-open .nav{opacity:1;visibility:visible;transform:none}
+  .menu-open .hdr::before{background:rgba(15,31,29,.96)}
+  .hdr-right{display:flex;align-items:center;gap:8px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .trio,.revs{grid-template-columns:1fr}
+  .card{min-height:380px}
+  .trio .card:last-child{min-height:380px}
+  .revs .rev:nth-child(n+4){display:none}
+  .cocktails{grid-template-columns:1fr}
+  .facts{grid-template-columns:1fr 1fr 1fr;gap:8px}
+  .fact{padding:14px 12px}
+  .fact b{font-size:22px}
+  .row{grid-template-columns:1fr;gap:0}
+  .hero-meta{gap:10px 22px;font-size:14px}
+  .leon-badge{left:14px;right:14px;max-width:none;bottom:14px}
+  .item-name{font-size:18px}
+  .logo b{font-size:17px}
+  .wa{width:56px;height:56px;right:14px;bottom:14px}
+}
+@media (min-width:861px){.hdr-right{display:contents}}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#top" aria-label="Chiringuito Beach Benidorm">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 21a11 11 0 0 1 22 0z" fill="currentColor"/><path d="M4 27c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6M4 33c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <span><b>Chiringuito Beach</b><small>BENIDORM</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#carta"><span lang="es">Carta</span><span lang="en">Menu</span></a>
+      <a href="#leon"><span lang="es">Carne de León</span><span lang="en">León beef</span></a>
+      <a href="#cocteles"><span lang="es">Cócteles</span><span lang="en">Cocktails</span></a>
+      <a href="#opiniones"><span lang="es">Opiniones</span><span lang="en">Reviews</span></a>
+      <a href="#visitanos"><span lang="es">Horario</span><span lang="en">Hours</span></a>
+      <a class="btn btn-ember btn-sm" href="#reservar"><span lang="es">Reservar mesa</span><span lang="en">Book a table</span></a>
+    </nav>
+    <div class="hdr-right">
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="burger" id="burger" aria-label="Menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"><img src="https://images.unsplash.com/photo-1584725173614-98c5925b7a02?auto=format&fit=crop&w=2200&q=80" alt="Playa de Levante de Benidorm al atardecer" fetchpriority="high"></div>
+  <div class="wrap hero-in">
+    <span class="pill"><span class="dot" id="heroDot"></span><span id="heroStatus">Playa de Levante · Benidorm</span></span>
+    <h1>
+      <span lang="es"><em>Brasa</em> de León, <span class="soft">brisa</span> de Levante.</span>
+      <span lang="en"><em>Fire</em> from León, <span class="soft">breeze</span> from Levante.</span>
+    </h1>
+    <p class="hero-lead">
+      <span lang="es">Cocina mediterránea, carnes a la parrilla y cócteles en primera línea de la Playa de Levante. Del mediodía a medianoche, con el mar delante.</span>
+      <span lang="en">Mediterranean food, grilled meats and cocktails right on Levante Beach. From midday to midnight, with the sea in front of you.</span>
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-ember" href="#reservar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+        <span lang="es">Reservar mesa</span><span lang="en">Book a table</span>
+      </a>
+      <a class="btn btn-ghost" href="#carta"><span lang="es">Ver la carta</span><span lang="en">See the menu</span></a>
+    </div>
+    <div class="hero-meta">
+      <span><b>Av. de Madrid, 22</b> · <span lang="es">Rincón de Loix</span><span lang="en">Rincón de Loix</span></span>
+      <span><b lang="es">Todos los días</b><b lang="en">Every day</b> · 11:00 – 24:00</span>
+      <span><span class="stars">★★★★★</span> <b>4,5</b> · <span lang="es">1.385 opiniones en Google</span><span lang="en">1,385 Google reviews</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="sec" aria-labelledby="h-vive">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow rv"><span lang="es">Así se vive</span><span lang="en">The experience</span></span>
+        <h2 id="h-vive" class="rv d1"><span lang="es">Diez pasos de la arena.</span><span lang="en">Ten steps from the sand.</span></h2>
+      </div>
+      <p class="rv d2"><span lang="es">Desde 2021 en el Paseo de Levante: una terraza grande frente al mar, buena música y una cocina que mezcla lo mediterráneo con la mejor carne de León.</span><span lang="en">On the Levante promenade since 2021: a big terrace facing the sea, good music and a kitchen that blends Mediterranean cooking with the finest beef from León.</span></p>
+    </div>
+    <div class="trio">
+      <article class="card rv">
+        <img src="https://images.unsplash.com/photo-1772352214475-12f9a75618d8?auto=format&fit=crop&w=900&q=80" alt="Mesa con vistas al mar" loading="lazy">
+        <div><span class="num">01</span><h3><span lang="es">Primera línea</span><span lang="en">Right on the beach</span></h3><p><span lang="es">Terraza amplia frente a la Playa de Levante. Mesa con mar, de día y de noche.</span><span lang="en">A large terrace facing Levante Beach. Sea-view tables, day and night.</span></p></div>
+      </article>
+      <article class="card rv d1">
+        <img src="https://images.unsplash.com/photo-1614119068601-483274e9dcb7?auto=format&fit=crop&w=900&q=80" alt="Carne a la parrilla con llama" loading="lazy">
+        <div><span class="num">02</span><h3><span lang="es">Carne de León</span><span lang="en">Beef from León</span></h3><p><span lang="es">Picaña madurada 45 días, chuletón de 45 a 60 días y parrillada para compartir.</span><span lang="en">45-day aged picanha, 45–60-day aged T-bone and a mixed grill to share.</span></p></div>
+      </article>
+      <article class="card rv d2">
+        <img src="https://images.unsplash.com/photo-1719262883659-2dd4088b5977?auto=format&fit=crop&w=900&q=80" alt="Cóctel frente al mar" loading="lazy">
+        <div><span class="num">03</span><h3><span lang="es">Cócteles al atardecer</span><span lang="en">Sunset cocktails</span></h3><p><span lang="es">Más de 25 cócteles, spritz y clásicos, hasta medianoche.</span><span lang="en">25+ cocktails, spritzes and classics, until midnight.</span></p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="sec menu-sec" id="carta" aria-labelledby="h-carta">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow light rv"><span lang="es">La carta</span><span lang="en">The menu</span></span>
+        <h2 id="h-carta" class="rv d1"><span lang="es">Para picar, compartir y repetir.</span><span lang="en">To nibble, share and repeat.</span></h2>
+      </div>
+      <p class="rv d2"><span lang="es">Nuestra carta de siempre. Pregunta también por las sugerencias del mes: este octubre, mousse de fruta de la pasión.</span><span lang="en">Our everyday menu. Ask about this month's specials too: this October, passion fruit mousse.</span></p>
+    </div>
+
+    <div class="tabs rv" role="tablist" id="tabs"></div>
+
+    <div class="menu-grid">
+      <figure class="menu-photo rv" style="margin:0">
+        <img id="menuImg" src="https://images.unsplash.com/photo-1774451606775-68df417107b3?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+        <figcaption id="menuCap"></figcaption>
+      </figure>
+      <div id="panels"></div>
+    </div>
+
+    <div class="menu-foot rv">
+      <span><span lang="es">Carta completa con bebidas, vinos y los 14 alérgenos en nuestra carta digital.</span><span lang="en">Full menu with drinks, wines and the 14 allergens in our digital menu.</span></span>
+      <a class="btn btn-ghost btn-sm" href="https://smartmenu.agorapos.com/?id=4tktbfeg" target="_blank" rel="noopener"><span lang="es">Abrir carta digital</span><span lang="en">Open digital menu</span> →</a>
+    </div>
+  </div>
+</section>
+
+<!-- LEON -->
+<section class="sec" id="leon" aria-labelledby="h-leon">
+  <div class="wrap leon">
+    <div class="leon-img rv">
+      <img src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?auto=format&fit=crop&w=1100&q=80" alt="Carne a la brasa" loading="lazy">
+      <div class="leon-badge"><b>45–60</b><span lang="es">días de maduración para nuestro chuletón de vaca.</span><span lang="en">days of dry-ageing for our beef T-bone.</span></div>
+    </div>
+    <div>
+      <span class="eyebrow rv"><span lang="es">De León a la Playa de Levante</span><span lang="en">From León to Levante Beach</span></span>
+      <h2 id="h-leon" class="rv d1"><span lang="es">La carne viene de León. Y se nota.</span><span lang="en">Our beef comes from León. You can taste it.</span></h2>
+      <p class="rv d2"><span lang="es">Traemos la carne desde León: la de las hamburguesas, la picaña, el entrecot y el chuletón. La hacemos a la parrilla, al punto que nos pidas, y la acompañamos con chimichurri, salsa de pimienta o la salsa del chef.</span><span lang="en">We bring our beef all the way from León: for the burgers, the picanha, the entrecôte and the T-bone. We grill it exactly how you like it and serve it with chimichurri, pepper sauce or the chef's sauce.</span></p>
+      <p class="rv d2"><span lang="es">León también está en la ensalada de la casa, con burrata y cecina, y en el cocido leonés que preparamos de vez en cuando. Pregúntanos cuándo toca.</span><span lang="en">León is also in our house salad, with burrata and cured "cecina" beef, and in the León-style stew we cook every now and then. Ask us when it's on.</span></p>
+      <div class="facts rv d3">
+        <div class="fact"><b>45</b><span lang="es">días de maduración de la picaña</span><span lang="en">days of ageing for the picanha</span></div>
+        <div class="fact"><b>180 g</b><span lang="es">de ternera en cada hamburguesa</span><span lang="en">of beef in every burger</span></div>
+        <div class="fact"><b>2 pers.</b><span lang="es">parrillada de carne para compartir</span><span lang="en">mixed grill to share</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUNSET / COCKTAILS -->
+<section class="sunset" id="cocteles" aria-labelledby="h-coc">
+  <img src="https://images.unsplash.com/photo-1584725160250-6dcaa571d2c3?auto=format&fit=crop&w=2000&q=80" alt="Atardecer en la playa de Benidorm" loading="lazy">
+  <div class="wrap">
+    <span class="eyebrow light rv"><span lang="es">Al caer el sol</span><span lang="en">When the sun goes down</span></span>
+    <h2 id="h-coc" class="rv d1"><span lang="es">El mejor plan empieza a las ocho.</span><span lang="en">The best plan starts at eight.</span></h2>
+    <p class="rv d2"><span lang="es">Spritz, mojitos y clásicos de toda la vida mientras se enciende Benidorm. Cócteles desde 7 € y la cocina abierta hasta tarde.</span><span lang="en">Spritzes, mojitos and timeless classics while Benidorm lights up. Cocktails from €7 and the kitchen open until late.</span></p>
+    <div class="chips rv d2">
+      <span class="chip">Aperol Spritz</span><span class="chip">Mojito</span><span class="chip">Piña Colada</span><span class="chip">Pornstar Martini</span><span class="chip">Espresso Martini</span><span class="chip">Hugo Spritz</span><span class="chip">Margarita</span><span class="chip">Moscow Mule</span><span class="chip">Negroni</span><span class="chip" lang="es">Sin alcohol</span><span class="chip" lang="en">Alcohol-free</span>
+    </div>
+    <div class="hero-cta rv d3">
+      <a class="btn btn-ember" href="#reservar"><span lang="es">Reservar para esta noche</span><span lang="en">Book for tonight</span></a>
+      <a class="btn btn-ghost" href="#carta" data-open-tab="cocteles"><span lang="es">Ver los cócteles</span><span lang="en">See the cocktails</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec" id="opiniones" aria-labelledby="h-op">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow rv"><span lang="es">Opiniones</span><span lang="en">Reviews</span></span>
+        <h2 id="h-op" class="rv d1"><span lang="es">Lo que dicen al salir.</span><span lang="en">What guests say.</span></h2>
+      </div>
+      <div class="score rv d2">
+        <b>4,5</b>
+        <div><span class="stars">★★★★★</span><small><span lang="es">1.385 opiniones en Google</span><span lang="en">1,385 reviews on Google</span></small></div>
+      </div>
+    </div>
+    <div class="revs">
+      <blockquote class="rev rv" style="margin:0">
+        <q><span lang="es">Riquísimas las croquetas, las hamburguesas deliciosas, se nota la carne traída desde León.</span><span lang="en">Delicious croquettes and burgers — you can tell the beef comes from León.</span></q>
+        <footer><b>Belén G.</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="rev rv d1" style="margin:0">
+        <q><span lang="es">Está en primera línea de playa […] la calidad se paga con gusto.</span><span lang="en">It's right on the beachfront […] quality you're happy to pay for.</span></q>
+        <footer><b>Juanjo D.</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="rev rv d2" style="margin:0">
+        <q><span lang="es">La comida muy buena, sobre todo el pulpo, que estaba increíble.</span><span lang="en">Very good food, especially the octopus, which was incredible.</span></q>
+        <footer><b>Joany C.</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="rev rv" style="margin:0">
+        <q><span lang="es">Una parrillada de carne, gambas y cócteles, todo para 4 personas… volveré seguramente.</span><span lang="en">A meat platter, prawns and cocktails for four… I'll definitely be back.</span></q>
+        <footer><b>Marco</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="rev rv d1" style="margin:0">
+        <q><span lang="es">Solomillo muy rico y jugoso y croquetas de jamón caseras muy cremosas.</span><span lang="en">Tasty, juicy sirloin and very creamy homemade ham croquettes.</span></q>
+        <footer><b>Nuri M.</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+      <blockquote class="rev rv d2" style="margin:0">
+        <q><span lang="es">Comida exquisita y el ambiente muy adecuado para el lugar. Repetiremos seguro.</span><span lang="en">Exquisite food and the perfect atmosphere for the spot. We'll be back for sure.</span></q>
+        <footer><b>Raquel R.</b><span class="stars">★★★★★</span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="sec book" id="reservar" aria-labelledby="h-res">
+  <div class="wrap book-grid">
+    <div class="book-info">
+      <span class="eyebrow rv"><span lang="es">Reservas</span><span lang="en">Bookings</span></span>
+      <h2 id="h-res" class="rv d1"><span lang="es">Tu mesa frente al mar.</span><span lang="en">Your table by the sea.</span></h2>
+      <p class="rv d2"><span lang="es">Rellena el formulario y se abrirá WhatsApp con tu reserva escrita. Te confirmamos enseguida. Los viernes y sábados por la noche, y para grupos, mejor reservar.</span><span lang="en">Fill in the form and WhatsApp will open with your booking ready to send. We'll confirm right away. On Friday and Saturday nights, and for groups, booking is recommended.</span></p>
+      <ul class="contact rv d3">
+        <li><a href="tel:+34660192519"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span><small lang="es">Teléfono y WhatsApp</small><small lang="en">Phone &amp; WhatsApp</small>660 19 25 19</span></a></li>
+        <li><a href="https://www.instagram.com/chiringuitobeachbenidorm/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><span><small>Instagram</small>@chiringuitobeachbenidorm</span></a></li>
+        <li><a href="https://maps.google.com/?q=Chiringuito+Beach+Benidorm,+Av.+de+Madrid+22,+Benidorm" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><span><small lang="es">Cómo llegar</small><small lang="en">Directions</small>Av. de Madrid, 22 · 03503 Benidorm</span></a></li>
+      </ul>
+    </div>
+    <form id="bookForm" class="rv d1" novalidate>
+      <label><span lang="es">Nombre</span><span lang="en">Name</span>
+        <input name="name" required autocomplete="name" data-ph-es="Tu nombre" data-ph-en="Your name">
+      </label>
+      <div class="row">
+        <label><span lang="es">Día</span><span lang="en">Date</span>
+          <input type="date" name="date" required>
+        </label>
+        <label><span lang="es">Hora</span><span lang="en">Time</span>
+          <select name="time" id="timeSel" required></select>
+        </label>
+      </div>
+      <div class="row">
+        <label><span lang="es">Personas</span><span lang="en">Guests</span>
+          <select name="people" id="peopleSel"></select>
+        </label>
+        <label><span lang="es">Ocasión</span><span lang="en">Occasion</span>
+          <select name="occasion" id="occSel"></select>
+        </label>
+      </div>
+      <label><span lang="es">Comentarios</span><span lang="en">Comments</span>
+        <textarea name="notes" data-ph-es="Alergias, trona, mesa en primera fila…" data-ph-en="Allergies, high chair, front-row table…"></textarea>
+      </label>
+      <button class="btn btn-ember" type="submit">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1.9 2 1.2 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+        <span lang="es">Enviar reserva por WhatsApp</span><span lang="en">Send booking via WhatsApp</span>
+      </button>
+      <p class="form-note"><span lang="es">No se envía nada hasta que pulses «Enviar» en WhatsApp.</span><span lang="en">Nothing is sent until you press “Send” in WhatsApp.</span></p>
+    </form>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" aria-labelledby="h-faq">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="eyebrow rv"><span lang="es">Preguntas frecuentes</span><span lang="en">FAQ</span></span>
+      <h2 id="h-faq" class="rv d1"><span lang="es">Antes de venir.</span><span lang="en">Before you come.</span></h2>
+    </div>
+    <div class="rv d1">
+      <details>
+        <summary><span lang="es">¿Hace falta reservar?</span><span lang="en">Do I need to book?</span><i></i></summary>
+        <p><span lang="es">No es obligatorio, pero las noches de fin de semana se llena. Si venís en grupo o queréis mesa en primera fila, escríbenos por WhatsApp al 660 19 25 19.</span><span lang="en">It isn't required, but weekend nights get busy. If you're a group or want a front-row table, message us on WhatsApp at +34 660 19 25 19.</span></p>
+      </details>
+      <details>
+        <summary><span lang="es">¿Qué horario tenéis?</span><span lang="en">What are your opening hours?</span><i></i></summary>
+        <p><span lang="es">Abrimos todos los días de 11:00 a 24:00, para comer, merendar, tomar algo o cenar.</span><span lang="en">We're open every day from 11:00 to midnight, for lunch, drinks or dinner.</span></p>
+      </details>
+      <details>
+        <summary><span lang="es">¿Tenéis información de alérgenos?</span><span lang="en">Do you have allergen information?</span><i></i></summary>
+        <p><span lang="es">Sí. En nuestra carta digital cada plato indica sus alérgenos y puedes filtrar los que no tomas. Si tienes dudas, díselo al camarero o indícalo en la reserva.</span><span lang="en">Yes. Every dish in our digital menu lists its allergens, and you can filter out the ones you avoid. If in doubt, tell your waiter or add it to your booking.</span></p>
+      </details>
+      <details>
+        <summary><span lang="es">¿De dónde es la carne?</span><span lang="en">Where is your beef from?</span><i></i></summary>
+        <p><span lang="es">De León. La picaña se madura 45 días y el chuletón entre 45 y 60. Las hamburguesas llevan 180 g de ternera.</span><span lang="en">From León. The picanha is aged for 45 days and the T-bone for 45 to 60. Our burgers use 180 g of beef.</span></p>
+      </details>
+      <details>
+        <summary><span lang="es">¿Dónde estáis exactamente?</span><span lang="en">Where exactly are you?</span><i></i></summary>
+        <p><span lang="es">En la Av. de Madrid, 22, en primera línea de la Playa de Levante, zona del Rincón de Loix.</span><span lang="en">At Av. de Madrid 22, right on Levante Beach, in the Rincón de Loix area.</span></p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="sec" id="visitanos" aria-labelledby="h-vis" style="padding-top:0">
+  <div class="wrap">
+    <div class="visit">
+      <div class="map rv"><iframe title="Mapa Chiringuito Beach Benidorm" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Chiringuito%20Beach%20Benidorm%2C%20Av.%20de%20Madrid%2022%2C%2003503%20Benidorm&z=16&output=embed"></iframe></div>
+      <div class="hours rv d1">
+        <span class="pill status"><span class="dot" id="openDot"></span><span id="openTxt">…</span></span>
+        <h3 id="h-vis"><span lang="es">Horario</span><span lang="en">Opening hours</span></h3>
+        <ul id="hoursList"></ul>
+        <p class="addr">Av. de Madrid, 22 · 03503 Benidorm (Alicante)<br><span lang="es">Playa de Levante · Rincón de Loix</span><span lang="en">Levante Beach · Rincón de Loix</span></p>
+        <a class="btn btn-ember" href="https://maps.google.com/?q=Chiringuito+Beach+Benidorm,+Av.+de+Madrid+22,+Benidorm" target="_blank" rel="noopener"><span lang="es">Cómo llegar</span><span lang="en">Get directions</span> →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <a class="logo" href="#top" aria-label="Chiringuito Beach Benidorm">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 21a11 11 0 0 1 22 0z" fill="currentColor"/><path d="M4 27c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6M4 33c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <span><b>Chiringuito Beach</b><small>BENIDORM</small></span>
+      </a>
+      <div class="ftr-links">
+        <a href="#carta"><span lang="es">Carta</span><span lang="en">Menu</span></a>
+        <a href="#reservar"><span lang="es">Reservas</span><span lang="en">Bookings</span></a>
+        <a href="tel:+34660192519">660 19 25 19</a>
+        <a href="https://www.instagram.com/chiringuitobeachbenidorm/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© <span id="yr">2026</span> Chiringuito Beach Benidorm · Av. de Madrid, 22 · Benidorm</span>
+      <span><span lang="es">Diseño web</span><span lang="en">Web design</span>: Mystic</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" id="waFloat" href="https://wa.me/34660192519" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1.9 2 1.2 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+</a>
+
+<script>
+(function(){
+  var WA = "34660192519";
+  var U = function(id, w){ return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&w=" + (w||900) + "&q=80"; };
+
+  /* ---------- Carta (datos de la carta digital del restaurante) ---------- */
+  var MENU = [
+    { id:"entrantes", es:"Entrantes", en:"Starters", img:"1774451606775-68df417107b3", capEs:"Pulpo a la parrilla", capEn:"Grilled octopus", items:[
+      ["Pulpo a la parrilla","Grilled octopus","22","Pata de pulpo a la parrilla con parmentier de patata, AOVE y pimentón de la Vera.","Grilled octopus leg with potato parmentier, extra virgin olive oil and smoked La Vera paprika.","fav"],
+      ["Carpaccio de ternera","Beef carpaccio","21","Láminas de carne cruda, AOVE, sal y pimienta negra, rúcula, parmesano y tostaditas.","Thin slices of raw beef, olive oil, salt and black pepper, rocket, parmesan and toasts."],
+      ["Nachos en la playa","Beach nachos","14","Nachos de maíz, picadillo de cerdo, queso fundido, guacamole casero, pico de gallo, salsa brava y crema agria.","Corn nachos, minced pork, melted cheese, homemade guacamole, pico de gallo, spicy brava sauce and sour cream.","fav","desde"],
+      ["Croquetas de jamón ibérico (5 ud.)","Iberian ham croquettes (5 pcs)","10","Crujientes y sabrosas.","Crispy and full of flavour."],
+      ["Gambones al ajillo","Garlic king prawns","16","Cazuela de gambones con ajo y guindilla, servida con tostadas.","Sizzling king prawns with garlic and chilli, served with toast."],
+      ["Zamburiñas a la parrilla","Grilled queen scallops","16","Con ajo, perejil y AOVE. Servidas con lima y sal Maldon.","With garlic, parsley and olive oil. Served with lime and Maldon salt."],
+      ["Brocheta de sardinas","Sardine skewer","15","",""],
+      ["Tacos de solomillo","Sirloin tacos","11","2 tacos de maíz con solomillo a cuchillo, cebolla y tomate, pico de gallo y salsa de jalapeños. Picantes pero adictivos.","2 corn tacos with hand-cut sirloin, onion and tomato, pico de gallo and jalapeño sauce. Spicy but addictive."],
+      ["Le Brioché","Le Brioché","11","2 panecillos con brotes verdes, carne desmechada, mayonesa kimchi y cebolla roja encurtida. ¡No los querrás compartir!","2 buns with greens, pulled meat, kimchi mayo and pickled red onion. You won't want to share them!"],
+      ["Patatas Chiringuito","Chiringuito fries","9,50","Patatas fritas con pulled pork, salsa barbacoa y salsa cheddar, con bacon crujiente.","Fries with pulled pork, BBQ sauce and cheddar sauce, topped with crispy bacon."]
+    ]},
+    { id:"ensaladas", es:"Ensaladas", en:"Salads", img:"1772352214475-12f9a75618d8", capEs:"Terraza frente al mar", capEn:"Sea-view terrace", items:[
+      ["Ensalada Chiringuito","Chiringuito salad","17","Tomate de la huerta, burrata, cecina de León, albahaca fresca y aliño de mostaza y vinagre de tomate.","Garden tomato, burrata, cured León beef (cecina), fresh basil and a mustard and tomato-vinegar dressing.","fav"],
+      ["Ensalada César","Caesar salad","17","Mezcla de lechugas, tomates cherry, salsa césar casera, picatostes, parmesano y pollo crujiente.","Mixed lettuce, cherry tomatoes, homemade Caesar dressing, croutons, parmesan and crispy chicken."],
+      ["Ensalada de temporada","Seasonal salad","15","Elegimos los mejores ingredientes de cada estación.","Made with the best ingredients of the season."]
+    ]},
+    { id:"pastas", es:"Pastas", en:"Pasta", img:"1772352214475-12f9a75618d8", capEs:"Terraza frente al mar", capEn:"Sea-view terrace", items:[
+      ["Rigatoni al vodka","Rigatoni alla vodka","15","Tomate, vodka y nata, con cherrys a la brasa y parmesano.","Tomato, vodka and cream, with chargrilled cherry tomatoes and parmesan."],
+      ["Rigatoni al tartufo con setas","Truffle rigatoni with mushrooms","15","",""],
+      ["Tagliatelle carbonara","Tagliatelle carbonara","15","Nata, beicon y cebolla, con parmesano.","Cream, bacon and onion, with parmesan."],
+      ["Tagliatelle boloñesa","Tagliatelle bolognese","15","Ragú de carne con verduras y salsa de tomate, con parmesano.","Meat ragù with vegetables and tomato sauce, with parmesan."]
+    ]},
+    { id:"hamburguesas", es:"Hamburguesas", en:"Burgers", img:"1572448862527-d3c904757de6", capEs:"Carne de León, pan brioche", capEn:"León beef, brioche bun", items:[
+      ["Hamburguesa Chiringuito","Chiringuito burger","15","Pan brioche, 180 g de ternera, cheddar, salsa de pepinillo, cebolla caramelizada, lechugas y tomate.","Brioche bun, 180 g beef, cheddar, pickle sauce, caramelised onion, lettuce and tomato.","fav"],
+      ["Hamburguesa Emylia","Emylia burger","16","Pan brioche, 180 g de ternera, cheddar, mermelada de beicon, pepino encurtido, cebolla crujiente y salsa Emy casera.","Brioche bun, 180 g beef, cheddar, bacon jam, pickled cucumber, crispy onion and our homemade Emy sauce."],
+      ["Hamburguesa pollo crispy","Crispy chicken burger","15","Pan brioche, pollo crujiente, tomate, lechugas, salsa césar y parmesano.","Brioche bun, crispy chicken, tomato, lettuce, Caesar sauce and parmesan."]
+    ]},
+    { id:"carnes", es:"Carnes a la parrilla", en:"From the grill", img:"1614119068601-483274e9dcb7", capEs:"Carne de León a la parrilla", capEn:"León beef on the grill", items:[
+      ["Chuletón de vaca","Beef T-bone","80","Madurado entre 45 y 60 días.","Dry-aged for 45 to 60 days.","fav"],
+      ["Parrillada de carne (2 pers.)","Mixed grill (for 2)","50","Entraña de vaca, chorizo criollo, contramuslo de pollo deshuesado, delicias ibéricas y «salchitón» de buey con chimichurri.","Beef skirt, Creole chorizo, boneless chicken thigh, Iberian pork cuts and ox sausage, with chimichurri.","fav"],
+      ["Solomillo","Beef sirloin","25","Solomillo de ternera a la parrilla, con sal y pimienta.","Grilled beef tenderloin, seasoned with salt and pepper."],
+      ["Entrecot de vaca","Beef entrecôte","23","Con patatas fritas y pimientos del piquillo asados.","With fries and roasted piquillo peppers."],
+      ["Picaña de vaca","Beef picanha","21","Madurada 45 días. Corte superior de la cadera, a la parrilla.","Aged 45 days. Top sirloin cap, grilled."],
+      ["Secreto de cerdo ibérico","Iberian pork secreto","21","La pieza escondida entre la paletilla y la panceta.","The hidden cut between the shoulder and the belly."],
+      ["Costilla de cerdo barbacoa","BBQ pork ribs","19","",""],
+      ["Salsas para la carne","Sauces for your meat","2,50","Chimichurri, salsa de pimienta o salsa del chef.","Chimichurri, pepper sauce or the chef's sauce."]
+    ]},
+    { id:"postres", es:"Postres", en:"Desserts", img:"1584725160250-6dcaa571d2c3", capEs:"Sobremesa al atardecer", capEn:"Dessert at sunset", items:[
+      ["Tarta de queso de la casa","House cheesecake","7","Especialidad de la casa.","Our signature dessert.","fav"],
+      ["Tiramisú de la casa","House tiramisu","7","El postre italiano, a nuestra manera.","The Italian classic, our way."],
+      ["Tarta de Kinder","Kinder cake","7","Tarta de queso y chocolate Kinder, casera.","Homemade cheesecake with Kinder chocolate."],
+      ["Mousse de Nutella","Nutella mousse","7","",""],
+      ["Postre de la semana","Dessert of the week","7","Pregunta por el de esta semana.","Ask us about this week's dessert."],
+      ["Helado (1 o 2 bolas)","Ice cream (1 or 2 scoops)","2,50","1 bola 2,50 € · 2 bolas 5 €","1 scoop €2.50 · 2 scoops €5","","desde"]
+    ]},
+    { id:"cocteles", es:"Cócteles", en:"Cocktails", img:"1751919276818-8288b042c98d", capEs:"Cócteles desde 7 €", capEn:"Cocktails from €7", cocktails:true, items:[
+      ["Aperol Spritz","Aperol Spritz","7"],["Limoncello Spritz","Limoncello Spritz","7"],["Hugo Spritz","Hugo Spritz","9"],["Tropical Spritz","Tropical Spritz","9"],
+      ["Mojito","Mojito","9","Menta, lima, azúcar moreno, angostura y ron.","Mint, lime, brown sugar, angostura and rum.","","desde"],
+      ["Caipiriña","Caipirinha","9","Lima, azúcar y cachaza.","Lime, sugar and cachaça.","","desde"],
+      ["Caipiroska","Caipiroska","9","Lima, azúcar blanco y vodka.","Lime, white sugar and vodka.","","desde"],
+      ["Margarita","Margarita","9","Tequila, zumo de lima y Cointreau.","Tequila, lime juice and Cointreau."],
+      ["Piña Colada","Piña Colada","9,50","Piña natural, coco, leche condensada y ron.","Fresh pineapple, coconut, condensed milk and rum."],
+      ["Sex on the Beach","Sex on the Beach","9,50","Maracuyá, zumo de naranja, granadina y vodka.","Passion fruit, orange juice, grenadine and vodka."],
+      ["Bloody Mary","Bloody Mary","9,50","Zumo de tomate, limón, sal, pimienta, tabasco, Lea & Perrins y vodka.","Tomato juice, lemon, salt, pepper, Tabasco, Worcestershire and vodka."],
+      ["Tom Collins","Tom Collins","9,50","Ginebra, zumo de limón, sirope de azúcar y soda.","Gin, lemon juice, sugar syrup and soda."],
+      ["Blue Lagoon","Blue Lagoon","9,50","Vodka, blue curaçao, piña y lima-limón.","Vodka, blue curaçao, pineapple and lemon-lime soda."],
+      ["Pornstar Martini","Pornstar Martini","9,50"],["Moscow Mule","Moscow Mule","9,50"],["Long Island","Long Island","9,50"],["Daiquiri","Daiquiri","9,50"],["Tequila Sunrise","Tequila Sunrise","9,50"],
+      ["Espresso Martini","Espresso Martini","9"],["Negroni","Negroni","9"],["White Russian","White Russian","9"],["Black Russian","Black Russian","9"],["Mimosa","Mimosa","9"],["San Francisco","San Francisco","9"],["Momento Vibrante","Momento Vibrante","9"],
+      ["Cóctel sin alcohol","Alcohol-free cocktail","7"]
+    ]}
+  ];
+
+  var lang = "es";
+  var tabsEl = document.getElementById("tabs"), panelsEl = document.getElementById("panels");
+  var imgEl = document.getElementById("menuImg"), capEl = document.getElementById("menuCap");
+
+  function price(p, from){
+    var s = p + " €";
+    if (from) return '<span lang="es">desde ' + s + '</span><span lang="en">from €' + p.replace(",",".") + '</span>';
+    return '<span lang="es">' + s + '</span><span lang="en">€' + p.replace(",",".") + '</span>';
+  }
+  function itemHTML(it){
+    var fav = it[5] === "fav" ? '<span class="tag"><span lang="es">Favorito</span><span lang="en">Favourite</span></span>' : "";
+    var desc = (it[3] || it[4]) ? '<p class="item-desc"><span lang="es">' + (it[3]||"") + '</span><span lang="en">' + (it[4]||"") + '</span></p>' : "";
+    return '<li class="item"><div class="item-top"><span class="item-name"><span lang="es">' + it[0] + '</span><span lang="en">' + it[1] + '</span>' + fav + '</span><span class="item-lead"></span><span class="item-price">' + price(it[2], it[6] === "desde") + '</span></div>' + desc + '</li>';
+  }
+  MENU.forEach(function(cat, i){
+    var b = document.createElement("button");
+    b.className = "tab"; b.type = "button"; b.setAttribute("role","tab");
+    b.id = "tab-" + cat.id; b.setAttribute("aria-controls","panel-" + cat.id);
+    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+    b.innerHTML = '<span lang="es">' + cat.es + '</span><span lang="en">' + cat.en + '</span>';
+    b.addEventListener("click", function(){ selectTab(cat.id); });
+    tabsEl.appendChild(b);
+    var p = document.createElement("div");
+    p.className = "panel"; p.id = "panel-" + cat.id; p.setAttribute("role","tabpanel"); p.setAttribute("aria-labelledby","tab-" + cat.id);
+    if (i) p.hidden = true;
+    p.innerHTML = '<ul class="items' + (cat.cocktails ? " cocktails" : "") + '">' + cat.items.map(itemHTML).join("") + '</ul>';
+    panelsEl.appendChild(p);
+  });
+  function selectTab(id){
+    MENU.forEach(function(cat){
+      var on = cat.id === id;
+      document.getElementById("tab-" + cat.id).setAttribute("aria-selected", on ? "true" : "false");
+      document.getElementById("panel-" + cat.id).hidden = !on;
+      if (on){
+        if (imgEl.dataset.id !== cat.img){
+          imgEl.style.opacity = 0;
+          setTimeout(function(){ imgEl.src = U(cat.img, 900); imgEl.dataset.id = cat.img; imgEl.onload = function(){ imgEl.style.opacity = 1; }; }, 200);
+        }
+        imgEl.alt = lang === "es" ? cat.capEs : cat.capEn;
+        capEl.innerHTML = '<span lang="es">' + cat.capEs + '</span><span lang="en">' + cat.capEn + '</span>';
+        var t = document.getElementById("tab-" + cat.id);
+        if (t.scrollIntoView && tabsEl.scrollWidth > tabsEl.clientWidth){ tabsEl.scrollTo({left: t.offsetLeft - 16, behavior:"smooth"}); }
+      }
+    });
+  }
+  imgEl.dataset.id = MENU[0].img;
+  capEl.innerHTML = '<span lang="es">' + MENU[0].capEs + '</span><span lang="en">' + MENU[0].capEn + '</span>';
+  document.querySelectorAll("[data-open-tab]").forEach(function(a){
+    a.addEventListener("click", function(){ selectTab(a.getAttribute("data-open-tab")); });
+  });
+
+  /* ---------- Horario y «abierto ahora» (hora de Madrid) ---------- */
+  var DAYS_ES = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
+  var DAYS_EN = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+  function madridNow(){
+    try {
+      var parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Madrid",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+      var o = {}; parts.forEach(function(p){ o[p.type] = p.value; });
+      var idx = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].indexOf(o.weekday);
+      return { day: idx, mins: parseInt(o.hour,10)*60 + parseInt(o.minute,10) };
+    } catch(e){ var d = new Date(); return { day:(d.getDay()+6)%7, mins:d.getHours()*60+d.getMinutes() }; }
+  }
+  function renderHours(){
+    var n = madridNow(), open = n.mins >= 660;
+    var ul = document.getElementById("hoursList");
+    ul.innerHTML = DAYS_ES.map(function(d, i){
+      return '<li' + (i === n.day ? ' class="today"' : '') + '><span><span lang="es">' + d + '</span><span lang="en">' + DAYS_EN[i] + '</span></span><span>11:00 – 24:00</span></li>';
+    }).join("");
+    var txt = open
+      ? (lang === "es" ? "Abierto ahora · hasta las 24:00" : "Open now · until midnight")
+      : (lang === "es" ? "Cerrado ahora · abrimos a las 11:00" : "Closed now · opens at 11:00");
+    ["openDot","heroDot"].forEach(function(id){ document.getElementById(id).classList.toggle("on", open); });
+    document.getElementById("openTxt").textContent = txt;
+    document.getElementById("heroStatus").textContent = txt;
+  }
+
+  /* ---------- Formulario de reserva → WhatsApp ---------- */
+  var timeSel = document.getElementById("timeSel"), peopleSel = document.getElementById("peopleSel"), occSel = document.getElementById("occSel");
+  function fillSelects(){
+    var tVal = timeSel.value, pVal = peopleSel.value, oVal = occSel.value;
+    var times = [];
+    for (var m = 12*60; m <= 22*60+30; m += 30){ times.push(("0"+Math.floor(m/60)).slice(-2) + ":" + ("0"+(m%60)).slice(-2)); }
+    timeSel.innerHTML = '<option value="">' + (lang === "es" ? "Elige hora" : "Pick a time") + '</option>' + times.map(function(t){ return '<option>' + t + '</option>'; }).join("");
+    var ppl = [];
+    for (var i = 1; i <= 10; i++) ppl.push('<option value="' + i + '">' + i + (lang === "es" ? (i === 1 ? " persona" : " personas") : (i === 1 ? " guest" : " guests")) + '</option>');
+    ppl.push('<option value="+10">' + (lang === "es" ? "Más de 10 (grupo)" : "More than 10 (group)") + '</option>');
+    peopleSel.innerHTML = ppl.join("");
+    var occ = lang === "es" ? ["Comida o cena","Cumpleaños","Aniversario","Grupo de amigos","Comida de empresa"] : ["Lunch or dinner","Birthday","Anniversary","Friends' get-together","Work meal"];
+    occSel.innerHTML = occ.map(function(o, i){ return '<option value="' + i + '">' + o + '</option>'; }).join("");
+    if (tVal) timeSel.value = tVal;
+    peopleSel.value = pVal || "2";
+    if (oVal) occSel.value = oVal;
+  }
+  var dateIn = document.querySelector('input[name="date"]');
+  (function(){ var d = new Date(), iso = d.getFullYear() + "-" + ("0"+(d.getMonth()+1)).slice(-2) + "-" + ("0"+d.getDate()).slice(-2); dateIn.min = iso; })();
+  document.getElementById("bookForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    var f = e.target, ok = true;
+    ["name","date","time"].forEach(function(n){
+      var el = f.elements[n]; var bad = !el.value.trim();
+      el.style.borderColor = bad ? "#EE5A2F" : ""; if (bad) ok = false;
+    });
+    if (!ok) return;
+    var d = new Date(f.elements.date.value + "T12:00:00");
+    var dateTxt = d.toLocaleDateString(lang === "es" ? "es-ES" : "en-GB", { weekday:"long", day:"numeric", month:"long" });
+    var occTxt = occSel.options[occSel.selectedIndex].text, msg;
+    if (lang === "es"){
+      msg = "¡Hola, Chiringuito Beach! Quiero reservar mesa:\n\n• Nombre: " + f.elements.name.value.trim() + "\n• Día: " + dateTxt + "\n• Hora: " + f.elements.time.value + "\n• Personas: " + f.elements.people.value + "\n• Ocasión: " + occTxt + (f.elements.notes.value.trim() ? "\n• Comentarios: " + f.elements.notes.value.trim() : "") + "\n\n¡Gracias!";
+    } else {
+      msg = "Hi Chiringuito Beach! I'd like to book a table:\n\n• Name: " + f.elements.name.value.trim() + "\n• Date: " + dateTxt + "\n• Time: " + f.elements.time.value + "\n• Guests: " + f.elements.people.value + "\n• Occasion: " + occTxt + (f.elements.notes.value.trim() ? "\n• Notes: " + f.elements.notes.value.trim() : "") + "\n\nThank you!";
+    }
+    window.open("https://wa.me/" + WA + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+  });
+
+  /* ---------- Idioma ---------- */
+  function setLang(l){
+    lang = l;
+    document.documentElement.lang = l;
+    document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.lang === l ? "true" : "false"); });
+    document.querySelectorAll("[data-ph-es]").forEach(function(el){ el.placeholder = el.getAttribute("data-ph-" + l); });
+    document.getElementById("waFloat").href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(l === "es" ? "¡Hola! Quería hacer una consulta / reserva." : "Hi! I'd like to ask about a booking.");
+    document.title = l === "es" ? "Chiringuito Beach Benidorm · Brasa, cócteles y mar en la Playa de Levante" : "Chiringuito Beach Benidorm · Grill, cocktails and sea on Levante Beach";
+    fillSelects(); renderHours();
+    try { localStorage.setItem("cbb-lang", l); } catch(e){}
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.dataset.lang); }); });
+  var saved = null; try { saved = localStorage.getItem("cbb-lang"); } catch(e){}
+  var nav = (navigator.language || "es").toLowerCase();
+  setLang(saved || (nav.indexOf("en") === 0 ? "en" : "es"));
+  setInterval(renderHours, 60000);
+
+  /* ---------- Cabecera, menú móvil y animaciones ---------- */
+  var hdr = document.getElementById("hdr"), burger = document.getElementById("burger");
+  function onScroll(){ hdr.classList.toggle("solid", window.scrollY > 40); }
+  window.addEventListener("scroll", onScroll, { passive:true }); onScroll();
+  burger.addEventListener("click", function(){
+    var open = document.body.classList.toggle("menu-open");
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  document.querySelectorAll("#nav a").forEach(function(a){ a.addEventListener("click", function(){ document.body.classList.remove("menu-open"); burger.setAttribute("aria-expanded","false"); }); });
+
+  var rv = document.querySelectorAll(".rv");
+  if ("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(es){ es.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); } }); }, { rootMargin:"0px 0px -8% 0px", threshold:.08 });
+    rv.forEach(function(el){ io.observe(el); });
+  } else { rv.forEach(function(el){ el.classList.add("in"); }); }
+  document.getElementById("yr").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>

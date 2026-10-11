@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Carta · Chiringuito Beach Benidorm</title>
+<meta name="description" content="Carta de Chiringuito Beach Benidorm: entrantes, carne de León a la parrilla, hamburguesas, postres caseros, cócteles, vinos y copas. Con alérgenos, en español e inglés.">
+<meta name="theme-color" content="#0F1F1D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F1F1D'/%3E%3Cpath d='M18 34a14 14 0 0 1 28 0z' fill='%23EE5A2F'/%3E%3Cpath d='M12 42c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3' fill='none' stroke='%23F7F2E9' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#0F1F1D; --ink-2:#17302C; --ink-3:#21403A; --sea:#1C7C74; --sea-2:#2BA39A; --mint:#BFE9E3;
+  --foam:#F7F2E9; --sand:#EFE4D2; --ember:#EE5A2F; --ember-2:#FF7A45;
+  --text:#1C2422; --muted:#5D6B67; --line:rgba(15,31,29,.12);
+  --display:"Bricolage Grotesque", system-ui, sans-serif;
+  --body:"Onest", system-ui, sans-serif;
+  --top:60px; --ctrl:112px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--top) + var(--ctrl) + 8px)}
+body{margin:0;background:var(--foam);color:var(--text);font:400 16px/1.55 var(--body);overflow-x:hidden}
+@supports (overflow:clip){body{overflow-x:clip}}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit}
+h1,h2,h3,h4{font-family:var(--display);letter-spacing:-.02em;margin:0}
+.wrap{width:min(100% - 32px, 1080px);margin-inline:auto}
+html[lang="en"] [lang="es"], html[lang="es"] [lang="en"]{display:none !important}
+
+/* ---------- Top bar ---------- */
+.top{position:sticky;top:0;z-index:40;height:var(--top);color:var(--foam)}
+.top::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(15,31,29,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.top-in{height:100%;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.brand svg{width:32px;height:32px;flex:none}
+.brand b{font:750 16.5px/1 var(--display);white-space:nowrap}
+.brand small{display:block;font:600 9.5px/1 var(--body);letter-spacing:.3em;opacity:.7;margin-top:4px}
+.top-r{display:flex;align-items:center;gap:8px}
+.lang{display:inline-flex;border:1px solid rgba(247,242,233,.3);border-radius:99px;padding:3px}
+.lang button{all:unset;cursor:pointer;font:600 12px/1 var(--body);padding:7px 10px;border-radius:99px;opacity:.7}
+.lang button[aria-pressed="true"]{background:var(--foam);color:var(--ink);opacity:1}
+.icon-btn{all:unset;cursor:pointer;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(247,242,233,.3)}
+.icon-btn svg{width:18px;height:18px}
+
+/* ---------- Intro ---------- */
+.intro{background:var(--ink);color:var(--foam);padding:34px 0 40px;position:relative;overflow:hidden}
+.intro::after{content:"";position:absolute;right:-120px;top:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(238,90,47,.35),rgba(238,90,47,0) 65%);pointer-events:none}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--ember-2)}
+.intro h1{font-size:clamp(42px,9vw,84px);font-weight:780;line-height:.98;margin:14px 0 14px;max-width:12ch}
+.intro h1 em{font-style:normal;color:var(--ember-2)}
+.intro p{margin:0;max-width:52ch;color:rgba(247,242,233,.8)}
+.jump{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+.jump a{flex:1 1 150px;max-width:240px;display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;padding:16px 18px;border-radius:18px;background:var(--ink-2);box-shadow:inset 0 0 0 1px rgba(247,242,233,.12);transition:transform .2s, background .2s}
+.jump a:hover{transform:translateY(-2px);background:var(--ink-3)}
+.jump b{font:700 22px/1 var(--display)}
+.jump small{display:block;font-size:12.5px;color:rgba(247,242,233,.6);margin-top:6px}
+.jump span.arrow{font-size:20px;color:var(--ember-2)}
+.special{display:flex;gap:12px;align-items:center;margin-top:22px;padding:12px 16px;border-radius:14px;background:rgba(238,90,47,.14);color:#FFD9C9;font-size:14.5px;max-width:560px}
+.special svg{width:20px;height:20px;flex:none;color:var(--ember-2)}
+
+/* ---------- Controls ---------- */
+.ctrl{position:sticky;top:var(--top);z-index:30;background:rgba(247,242,233,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.ctrl-row{display:flex;gap:8px;padding-top:10px}
+.search{flex:1;position:relative;min-width:0}
+.search svg{position:absolute;left:14px;top:50%;width:18px;height:18px;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.search input{width:100%;font:400 16px/1 var(--body);padding:12px 38px 12px 42px;border-radius:99px;border:1px solid var(--line);background:#fff;color:var(--text);outline:none}
+.search input:focus{border-color:var(--sea)}
+.search .clear{all:unset;cursor:pointer;position:absolute;right:8px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;display:none;place-items:center;color:var(--muted)}
+.search.has .clear{display:grid}
+.al-btn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:600 14px/1 var(--body);padding:0 16px;border-radius:99px;background:var(--ink);color:var(--foam);white-space:nowrap}
+.al-btn svg{width:17px;height:17px}
+.al-btn .n{display:none;min-width:20px;height:20px;border-radius:99px;background:var(--ember);font-size:12px;place-items:center;padding:0 5px}
+.al-btn.on .n{display:grid}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:10px 0 10px;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;text-decoration:none;font:600 13.5px/1 var(--body);padding:9px 13px;border-radius:99px;color:var(--muted);box-shadow:inset 0 0 0 1px var(--line);transition:background .2s,color .2s}
+.chip.drink{color:var(--sea)}
+.chip.sep{box-shadow:none;padding:9px 2px;color:var(--line);pointer-events:none}
+.chip.on{background:var(--ink);color:var(--foam);box-shadow:none}
+
+/* ---------- Favourites ---------- */
+.favs{padding:30px 0 6px}
+.favs h2{font-size:24px;margin-bottom:14px}
+.fav-row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(200px,1fr);gap:12px;overflow-x:auto;scrollbar-width:none;padding-bottom:6px;scroll-snap-type:x mandatory}
+.fav-row::-webkit-scrollbar{display:none}
+.fav{scroll-snap-align:start;position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;color:var(--foam);text-decoration:none;isolation:isolate;display:flex;align-items:flex-end}
+.fav img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .6s}
+.fav:hover img{transform:scale(1.05)}
+.fav::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 40%,rgba(15,31,29,.88))}
+.fav div{padding:14px}
+.fav b{display:block;font:700 18px/1.15 var(--display)}
+.fav span{font-size:14px;color:var(--ember-2);font-weight:600}
+.photo-note{font-size:12px;color:var(--muted);margin:8px 0 0}
+
+/* ---------- Sections ---------- */
+.part{padding:20px 0 40px}
+.part-head{display:flex;align-items:baseline;gap:14px;padding:30px 0 6px;border-bottom:2px solid var(--ink);margin-bottom:6px}
+.part-head h2{font-size:clamp(40px,8vw,72px);font-weight:780;line-height:1}
+.part-head p{margin:0;color:var(--muted);font-size:15px}
+.cat{padding:34px 0 8px}
+.cat-head{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;margin-bottom:10px}
+.cat-head .num{font:700 13px/1 var(--body);letter-spacing:.14em;color:var(--ember)}
+.cat-head h3{font-size:clamp(28px,4.6vw,40px);font-weight:750;line-height:1.05}
+.cat-head p{flex-basis:100%;margin:2px 0 0;color:var(--muted);font-size:15px;max-width:60ch}
+.list{display:grid;grid-template-columns:1fr 1fr;gap:0 44px}
+.dish{padding:16px 0;border-bottom:1px solid var(--line);break-inside:avoid}
+.dish-top{display:flex;align-items:baseline;gap:10px}
+.dish h4{font-size:18.5px;font-weight:680;line-height:1.25;letter-spacing:-.005em}
+.lead{flex:1;min-width:16px;border-bottom:1.5px dotted rgba(15,31,29,.25);transform:translateY(-4px)}
+.price{font:650 16.5px/1 var(--body);color:var(--ember);white-space:nowrap}
+.desc{margin:5px 0 0;color:var(--muted);font-size:14.5px;line-height:1.5}
+.vars{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:4px;font-size:14.5px}
+.vars li{display:flex;gap:10px;align-items:baseline}
+.vars li span:first-child{color:var(--text)}
+.vars .lead{transform:translateY(-3px);border-bottom-width:1px}
+.vars .price{font-size:14.5px;font-weight:600}
+.meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.tag{font:600 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:99px;background:rgba(238,90,47,.12);color:#C2421D}
+.tag.leon{background:rgba(28,124,116,.12);color:var(--sea)}
+.tag.veg{background:rgba(94,170,80,.15);color:#3D7A31}
+.tag.hot{background:rgba(200,40,40,.1);color:#B32424}
+.al{font:500 11.5px/1 var(--body);padding:5px 8px;border-radius:99px;box-shadow:inset 0 0 0 1px var(--line);color:var(--muted)}
+.al.hit{background:var(--ember);color:#fff;box-shadow:none}
+.note{margin:14px 0 0;font-size:14px;color:var(--muted);display:flex;gap:8px}
+.note b{color:var(--text);font-weight:600}
+
+/* ---------- Drinks (dark) ---------- */
+.drinks{background:var(--ink);color:var(--foam)}
+.drinks .part-head{border-color:var(--foam)}
+.drinks .part-head p,.drinks .cat-head p,.drinks .desc,.drinks .note{color:rgba(247,242,233,.66)}
+.drinks .cat-head .num{color:var(--ember-2)}
+.drinks .dish{border-color:rgba(247,242,233,.12)}
+.drinks .lead{border-color:rgba(247,242,233,.25)}
+.drinks .price{color:var(--ember-2)}
+.drinks .vars li span:first-child{color:var(--foam)}
+.drinks .note b{color:var(--foam)}
+.drinks .tag{background:rgba(255,122,69,.16);color:#FFB08F}
+.sub{font:650 13px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--mint);margin:22px 0 4px;grid-column:1/-1}
+.sub:first-child{margin-top:4px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:0 36px}
+.mini{display:flex;gap:10px;align-items:baseline;padding:10px 0;border-bottom:1px solid rgba(247,242,233,.1);font-size:15.5px}
+.mini .lead{transform:translateY(-3px)}
+.mini small{color:rgba(247,242,233,.55);font-size:13px;margin-left:4px}
+
+/* table for spirits */
+.tbl{width:100%;border-collapse:collapse;font-size:15px}
+.tbl caption{text-align:left;font:650 13px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--mint);padding:22px 0 10px}
+.tbl th{font:600 11.5px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:rgba(247,242,233,.55);text-align:right;padding:8px 0 8px 12px;border-bottom:1px solid rgba(247,242,233,.2);white-space:nowrap}
+.tbl th:first-child{text-align:left;padding-left:0}
+.tbl td{padding:11px 0 11px 12px;border-bottom:1px solid rgba(247,242,233,.1);text-align:right;white-space:nowrap;color:var(--ember-2);font-weight:600}
+.tbl td:first-child{text-align:left;padding-left:0;color:var(--foam);font-weight:500;white-space:normal}
+.tbl td:first-child small{display:inline-block;margin-left:6px;font:600 10.5px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:#FFB08F;background:rgba(255,122,69,.16);padding:4px 6px;border-radius:99px;vertical-align:2px}
+.tbl td.na{color:rgba(247,242,233,.3);font-weight:400}
+.tbl-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 44px;align-items:start}
+
+/* cocktails */
+.cocktails{display:grid;grid-template-columns:repeat(2,1fr);gap:0 44px}
+.cocktail-hero{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px;align-items:center;margin:6px 0 18px;padding:18px;border-radius:20px;background:var(--ink-2)}
+.cocktail-hero img{border-radius:14px;aspect-ratio:16/10;object-fit:cover;width:100%}
+.cocktail-hero p{margin:0;color:rgba(247,242,233,.8);font-size:15px}
+.cocktail-hero b{display:block;font:700 26px/1.1 var(--display);margin-bottom:8px}
+.flav{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.flav span{font:600 12.5px/1 var(--body);padding:7px 10px;border-radius:99px;background:rgba(247,242,233,.1)}
+
+/* empty / filters */
+.empty{display:none;text-align:center;padding:60px 16px;color:var(--muted)}
+.empty b{display:block;font:700 22px/1.2 var(--display);color:var(--text);margin-bottom:6px}
+.filtered-note{display:none;margin:18px 0 0;padding:12px 16px;border-radius:14px;background:rgba(238,90,47,.1);color:#9C3415;font-size:14.5px}
+.filtered-note button{all:unset;cursor:pointer;font-weight:600;text-decoration:underline;margin-left:6px}
+.hide{display:none !important}
+
+/* ---------- Allergen sheet ---------- */
+.sheet-bg{position:fixed;inset:0;z-index:80;background:rgba(15,31,29,.5);opacity:0;visibility:hidden;transition:opacity .25s, visibility .25s}
+.sheet{position:fixed;left:50%;bottom:0;z-index:90;width:min(100%,560px);transform:translate(-50%,105%);background:var(--foam);border-radius:24px 24px 0 0;padding:22px 20px calc(20px + env(safe-area-inset-bottom));transition:transform .3s cubic-bezier(.2,.7,.2,1);max-height:88svh;overflow:auto}
+.sheet-open .sheet-bg{opacity:1;visibility:visible}
+.sheet-open .sheet{transform:translate(-50%,0)}
+.sheet h3{font-size:26px;margin:4px 0 6px}
+.sheet p{margin:0 0 16px;color:var(--muted);font-size:14.5px}
+.al-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.al-opt{all:unset;cursor:pointer;display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:14px;background:#fff;box-shadow:inset 0 0 0 1px var(--line);font-size:15px;font-weight:500}
+.al-opt i{width:20px;height:20px;border-radius:6px;box-shadow:inset 0 0 0 1.5px rgba(15,31,29,.3);flex:none;display:grid;place-items:center;font-style:normal;font-size:13px;color:#fff}
+.al-opt[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--ember)}
+.al-opt[aria-pressed="true"] i{background:var(--ember);box-shadow:none}
+.al-opt[aria-pressed="true"] i::before{content:"✕"}
+.sheet-actions{display:flex;gap:10px;margin-top:18px}
+.btn{all:unset;cursor:pointer;flex:1;text-align:center;font:600 15px/1 var(--body);padding:15px 18px;border-radius:99px}
+.btn-dark{background:var(--ink);color:var(--foam)}
+.btn-line{box-shadow:inset 0 0 0 1px var(--line)}
+.legal{font-size:12.5px;color:var(--muted);margin:14px 0 0}
+
+/* ---------- Footer ---------- */
+.foot{background:var(--sand);padding:40px 0 34px;font-size:14.5px;color:var(--muted)}
+.foot-cta{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.foot-cta b{display:block;font:700 26px/1.1 var(--display);color:var(--text)}
+.cta{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:600 15px/1 var(--body);padding:15px 20px;border-radius:99px;background:var(--ember);color:#fff}
+.cta svg{width:19px;height:19px}
+.foot p{margin:0 0 8px}
+.foot a{text-decoration:none;color:var(--text);font-weight:600}
+.foot-bot{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;margin-top:16px;font-size:13.5px}
+.print-btn{all:unset;cursor:pointer;text-decoration:underline;color:var(--text);font-weight:600}
+
+/* ---------- Responsive ---------- */
+@media (max-width:860px){
+  .list,.cocktails,.tbl-grid{grid-template-columns:1fr}
+  .grid3{grid-template-columns:1fr 1fr}
+  .cocktail-hero{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .grid3{grid-template-columns:1fr}
+  .brand small{display:none}
+  .al-btn .t{display:none}
+  .al-btn{padding:0 14px}
+  .dish h4{font-size:17.5px}
+  .al-grid{grid-template-columns:1fr 1fr}
+  .tbl{font-size:14.5px}
+  .tbl th{font-size:10px;letter-spacing:.03em;padding-left:8px}
+  .tbl td{padding-left:8px}
+}
+@media (prefers-reduced-motion:reduce){html,.chips{scroll-behavior:auto}}
+
+/* ---------- Print (A4) ---------- */
+@media print{
+  @page{margin:14mm}
+  body{background:#fff;font-size:11pt}
+  .top,.ctrl,.favs,.sheet,.sheet-bg,.jump,.foot-cta,.print-btn,.filtered-note,.empty{display:none !important}
+  .intro,.drinks{background:#fff !important;color:#000 !important}
+  .intro::after{display:none}
+  .intro h1{font-size:34pt;color:#000}
+  .intro p,.special{color:#333 !important;background:none !important;padding:0}
+  .drinks *{color:#000 !important;border-color:#ccc !important}
+  .price,.tbl td{color:#000 !important}
+  .cocktail-hero{display:none}
+  .cat{break-inside:auto}
+  .dish,.mini,tr{break-inside:avoid}
+  .al{box-shadow:none;padding:0 4px 0 0}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="../" aria-label="Chiringuito Beach Benidorm">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 21a11 11 0 0 1 22 0z" fill="currentColor"/><path d="M4 27c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6M4 33c4 0 4-2.6 8-2.6s4 2.6 8 2.6 4-2.6 8-2.6 4 2.6 8 2.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <span><b>Chiringuito Beach</b><small>BENIDORM</small></span>
+    </a>
+    <div class="top-r">
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="icon-btn" href="https://wa.me/34660192519" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1.9 2 1.2 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="wrap">
+    <span class="eyebrow"><span lang="es">La carta</span><span lang="en">The menu</span></span>
+    <h1><span lang="es">Comer, beber y <em>quedarse.</em></span><span lang="en">Eat, drink and <em>stay a while.</em></span></h1>
+    <p><span lang="es">Cocina mediterránea y carne de León a la parrilla, frente a la Playa de Levante. Todo lo que servimos, con sus precios y alérgenos.</span><span lang="en">Mediterranean food and León beef from the grill, right on Levante Beach. Everything we serve, with prices and allergens.</span></p>
+    <div class="jump">
+      <a href="#comer"><span><b lang="es">Comer</b><b lang="en">Food</b><small lang="es">Entrantes, carnes, postres…</small><small lang="en">Starters, grill, desserts…</small></span><span class="arrow">↓</span></a>
+      <a href="#beber"><span><b lang="es">Beber</b><b lang="en">Drinks</b><small lang="es">Cócteles, vinos, copas…</small><small lang="en">Cocktails, wine, spirits…</small></span><span class="arrow">↓</span></a>
+    </div>
+    <div class="special">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8L12 16.9 5.8 20.3l1.6-6.8L2.2 8.9l6.9-.6z"/></svg>
+      <span><span lang="es"><b>Sugerencia de octubre:</b> mousse de fruta de la pasión. Pregunta también por el postre de la semana.</span><span lang="en"><b>October special:</b> passion fruit mousse. Ask about the dessert of the week, too.</span></span>
+    </div>
+  </div>
+</section>
+
+<div class="ctrl" id="ctrl">
+  <div class="wrap">
+    <div class="ctrl-row">
+      <label class="search" id="searchBox">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" autocomplete="off" aria-label="Buscar en la carta">
+        <button class="clear" type="button" id="qClear" aria-label="Borrar">✕</button>
+      </label>
+      <button class="al-btn" type="button" id="alBtn" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+        <span class="t"><span lang="es">Alérgenos</span><span lang="en">Allergens</span></span><span class="n" id="alN">0</span>
+      </button>
+    </div>
+    <nav class="chips" id="chips" aria-label="Secciones"></nav>
+  </div>
+</div>
+
+<main>
+  <section class="favs wrap" id="favs">
+    <h2><span lang="es">Los favoritos de la casa</span><span lang="en">House favourites</span></h2>
+    <div class="fav-row" id="favRow"></div>
+    <p class="photo-note"><span lang="es">Fotos orientativas.</span><span lang="en">Photos for illustration only.</span></p>
+  </section>
+
+  <section class="part" id="comer">
+    <div class="wrap">
+      <div class="part-head"><h2><span lang="es">Comer</span><span lang="en">Food</span></h2></div>
+      <p class="filtered-note" id="fNote"></p>
+      <div id="food"></div>
+    </div>
+  </section>
+
+  <section class="part drinks" id="beber">
+    <div class="wrap">
+      <div class="part-head"><h2><span lang="es">Beber</span><span lang="en">Drinks</span></h2></div>
+      <div id="drinks"></div>
+    </div>
+  </section>
+
+  <div class="empty wrap" id="empty"><b><span lang="es">No encontramos nada</span><span lang="en">Nothing found</span></b><span lang="es">Prueba con otra palabra o pregunta a nuestro equipo.</span><span lang="en">Try another word or ask our team.</span></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-cta">
+      <div><b><span lang="es">¿Mesa frente al mar?</span><span lang="en">A table by the sea?</span></b><span lang="es">Reserva por WhatsApp y te confirmamos enseguida.</span><span lang="en">Book on WhatsApp and we'll confirm right away.</span></div>
+      <a class="cta" id="bookCta" href="https://wa.me/34660192519" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1.9 2 1.2 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg><span lang="es">Reservar mesa</span><span lang="en">Book a table</span></a>
+    </div>
+    <p><span lang="es">Si tienes alguna alergia o intolerancia, avísanos antes de pedir: la información de alérgenos es orientativa y nuestro equipo te ayuda a elegir.</span><span lang="en">If you have an allergy or intolerance, please tell us before ordering: allergen information is a guide and our team will help you choose.</span></p>
+    <p><span lang="es">Precios en euros.</span><span lang="en">Prices in euros.</span> · Av. de Madrid, 22 · Benidorm · <a href="tel:+34660192519">660 19 25 19</a> · <a href="https://www.instagram.com/chiringuitobeachbenidorm/" target="_blank" rel="noopener">Instagram</a></p>
+    <div class="foot-bot">
+      <span><a href="../">← <span lang="es">Volver a la web</span><span lang="en">Back to website</span></a> · <button class="print-btn" type="button" onclick="window.print()"><span lang="es">Imprimir carta</span><span lang="en">Print menu</span></button></span>
+      <span><span lang="es">Diseño web</span><span lang="en">Web design</span>: Mystic</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sheet-bg" id="sheetBg"></div>
+<div class="sheet" role="dialog" aria-modal="true" aria-labelledby="alTitle" id="sheet">
+  <h3 id="alTitle"><span lang="es">Filtrar por alérgenos</span><span lang="en">Filter by allergens</span></h3>
+  <p><span lang="es">Marca lo que no puedes tomar y ocultamos los platos que lo llevan.</span><span lang="en">Tick what you can't have and we'll hide the dishes that contain it.</span></p>
+  <div class="al-grid" id="alGrid"></div>
+  <div class="sheet-actions">
+    <button class="btn btn-line" type="button" id="alClear"><span lang="es">Limpiar</span><span lang="en">Clear</span></button>
+    <button class="btn btn-dark" type="button" id="alDone"><span lang="es">Ver la carta</span><span lang="en">Show menu</span></button>
+  </div>
+  <p class="legal"><span lang="es">El filtro se aplica a la comida. Para bebidas o cualquier duda, pregunta a nuestro equipo.</span><span lang="en">The filter applies to food. For drinks or any questions, please ask our team.</span></p>
+</div>
+
+<script>
+(function(){
+  /* ============ Datos de la carta (de la carta digital del restaurante, revisados) ============ */
+  var AL = {1:["Gluten","Gluten"],2:["Crustáceos","Crustaceans"],3:["Huevos","Eggs"],4:["Pescado","Fish"],5:["Cacahuetes","Peanuts"],6:["Soja","Soy"],7:["Lácteos","Milk"],8:["Frutos de cáscara","Tree nuts"],9:["Apio","Celery"],10:["Mostaza","Mustard"],11:["Sésamo","Sesame"],12:["Sulfitos","Sulphites"],13:["Altramuces","Lupin"],14:["Moluscos","Molluscs"]};
+  var TAG = {fav:["Favorito","Favourite",""],leon:["De León","From León","leon"],veg:["Opción vegetariana","Veggie option","veg"],hot:["Picante","Spicy","hot"],share:["Para compartir","To share",""],house:["De la casa","House special",""]};
+  var IMG = function(id){ return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&w=600&q=75"; };
+
+  /* Comida: [nombreES, nombreEN, precio | variantes, descES, descEN, alérgenos, etiquetas] */
+  var FOOD = [
+    {id:"entrantes", es:"Entrantes", en:"Starters", ies:"Para abrir boca y compartir en el centro de la mesa.", ien:"To start with and share in the middle of the table.", items:[
+      ["Pulpo a la parrilla","Grilled octopus",22,"Pata de pulpo a la parrilla con parmentier de patata, aceite de oliva virgen extra y pimentón de la Vera.","Grilled octopus leg with potato parmentier, extra virgin olive oil and smoked La Vera paprika.",[7,14],["fav"],"pulpo"],
+      ["Croquetas de jamón ibérico","Iberian ham croquettes",10,"5 unidades, crujientes por fuera y cremosas por dentro. Pregunta por otras variedades, ¡pero no te quedes sin probar estas!","5 pieces, crispy outside and creamy inside. Ask about other flavours, but don't miss these!",[1,3,7],["fav"]],
+      ["Nachos en la playa","Beach nachos",[["Con picadillo de cerdo","With minced pork",15],["Vegetarianos","Vegetarian",14]],"Nachos de maíz, queso fundido, guacamole casero, pico de gallo, salsa brava y crema agria.","Corn nachos, melted cheese, homemade guacamole, pico de gallo, spicy brava sauce and sour cream.",[7],["veg","share"],"nachos"],
+      ["Gambones al ajillo","Garlic king prawns",16,"En cazuela, con ajo y guindilla. Servidos con tostadas.","Sizzling in a clay dish with garlic and chilli. Served with toast.",[1,2],[]],
+      ["Zamburiñas a la parrilla","Grilled queen scallops",16,"Con ajo, perejil y aceite de oliva virgen extra. Con lima y sal Maldon. Ideales con un vino blanco.","With garlic, parsley and extra virgin olive oil. With lime and Maldon salt. Perfect with a white wine.",[2],[]],
+      ["Carpaccio de ternera","Beef carpaccio",21,"Láminas finas de ternera con aceite de oliva, sal, pimienta negra, rúcula, parmesano y tostaditas.","Thin slices of raw beef with olive oil, salt, black pepper, rocket, parmesan and crispbreads.",[1,7],[]],
+      ["Brocheta de sardinas","Sardine skewer",15,"","",[4],[]],
+      ["Tacos de solomillo","Sirloin tacos",11,"2 tacos de maíz con solomillo picado a cuchillo, cebolla, tomate, pico de gallo y salsa de jalapeños. Picantes pero adictivos.","2 corn tacos with hand-chopped sirloin, onion, tomato, pico de gallo and jalapeño sauce. Spicy but addictive.",[7,10],["hot"]],
+      ["Le Brioché","Le Brioché",11,"2 panecillos brioche con brotes verdes, carne desmechada, mayonesa de kimchi y cebolla roja encurtida. No los querrás compartir.","2 brioche buns with greens, pulled meat, kimchi mayo and pickled red onion. You won't want to share them.",[1,3,7],[]],
+      ["Patatas Chiringuito","Chiringuito fries",9.5,"Patatas fritas con pulled pork, salsa barbacoa, salsa cheddar y bacon crujiente.","Fries with pulled pork, BBQ sauce, cheddar sauce and crispy bacon.",[7],["share"]]
+    ]},
+    {id:"ensaladas", es:"Ensaladas", en:"Salads", ies:"Frescas, de temporada y con un toque de León.", ien:"Fresh, seasonal and with a touch of León.", items:[
+      ["Ensalada Chiringuito","Chiringuito salad",17,"Tomate de la huerta, burrata, cecina de León, albahaca fresca y aliño de mostaza y vinagre de tomate.","Garden tomato, burrata, cured beef (cecina) from León, fresh basil and a mustard and tomato-vinegar dressing.",[7,10],["leon","house"]],
+      ["Ensalada César","Caesar salad",17,"Lechugas variadas, tomates cherry, salsa César casera, picatostes, parmesano y pollo crujiente.","Mixed lettuce, cherry tomatoes, homemade Caesar dressing, croutons, parmesan and crispy chicken.",[1,4,7],[]],
+      ["Ensalada de temporada","Seasonal salad",15,"Elegimos los mejores ingredientes de cada estación. Pregúntanos por la de hoy.","Made with the best ingredients of the season. Ask us about today's.",[],[]]
+    ]},
+    {id:"pastas", es:"Pastas", en:"Pasta", ies:"Pasta con salsas de siempre, terminada con parmesano.", ien:"Pasta with classic sauces, finished with parmesan.", items:[
+      ["Rigatoni al vodka","Rigatoni alla vodka",15,"Tomate, vodka y nata, con tomates cherry a la brasa y parmesano.","Tomato, vodka and cream, with chargrilled cherry tomatoes and parmesan.",[1,7],[]],
+      ["Rigatoni al tartufo con setas","Truffle rigatoni with mushrooms",15,"","",[1,7],[]],
+      ["Tagliatelle carbonara","Tagliatelle carbonara",15,"Nata, beicon y cebolla, con parmesano.","Cream, bacon and onion, with parmesan.",[1,7],[]],
+      ["Tagliatelle boloñesa","Tagliatelle bolognese",15,"Ragú de carne con verduras y salsa de tomate, con parmesano.","Meat ragù with vegetables and tomato sauce, with parmesan.",[1,7,9],[]]
+    ]},
+    {id:"hamburguesas", es:"Hamburguesas", en:"Burgers", ies:"En pan brioche. Las de ternera, con 180 g de carne de León.", ien:"On brioche buns. Our beef burgers use 180 g of León beef.", items:[
+      ["Hamburguesa Chiringuito","Chiringuito burger",15,"180 g de ternera, cheddar, salsa de pepinillo, cebolla caramelizada, lechuga y tomate.","180 g beef, cheddar, pickle sauce, caramelised onion, lettuce and tomato.",[1,7],["fav","leon"],"burger"],
+      ["Hamburguesa Emylia","Emylia burger",16,"180 g de ternera, cheddar, mermelada de beicon, pepinillo, cebolla crujiente y nuestra salsa Emy casera.","180 g beef, cheddar, bacon jam, pickles, crispy onion and our homemade Emy sauce.",[1,7],["leon"]],
+      ["Hamburguesa de pollo crispy","Crispy chicken burger",15,"Pollo crujiente, tomate, lechuga, salsa César y parmesano.","Crispy chicken, tomato, lettuce, Caesar sauce and parmesan.",[1,3,4,7],[]]
+    ]},
+    {id:"carnes", es:"Carnes a la parrilla", en:"From the grill", ies:"Carne de León, madurada y hecha a la parrilla en su punto.", ien:"Beef from León, dry-aged and grilled just how you like it.", items:[
+      ["Chuletón de vaca","Beef T-bone steak",80,"Madurado entre 45 y 60 días. Pregunta por su origen.","Dry-aged for 45 to 60 days. Ask us where it comes from.",[],["fav","leon","share"],"chuleton"],
+      ["Parrillada de carne (2 personas)","Mixed grill (for 2)",50,"Entraña de vaca, chorizo criollo, contramuslo de pollo deshuesado, delicias ibéricas y «salchitón» de buey, con chimichurri.","Beef skirt steak, Creole chorizo, boneless chicken thigh, Iberian pork cuts and ox «salchitón» sausage, with chimichurri.",[],["share"],"parrillada"],
+      ["Solomillo de ternera","Beef tenderloin",25,"A la parrilla, solo con sal y pimienta.","Grilled, seasoned simply with salt and pepper.",[],["leon"]],
+      ["Entrecot de vaca","Beef entrecôte",23,"Con patatas fritas y pimientos del piquillo asados.","With fries and roasted piquillo peppers.",[],["leon"]],
+      ["Picaña de vaca","Beef picanha",21,"Madurada 45 días. Corte superior de la cadera, a la parrilla.","Aged for 45 days. Top sirloin cap, grilled.",[],["leon"]],
+      ["Secreto de cerdo ibérico","Iberian pork secreto",21,"El corte escondido entre la paletilla y la panceta: jugoso y con sabor.","The hidden cut between the shoulder and the belly: juicy and full of flavour.",[],[]],
+      ["Costillas de cerdo a la barbacoa","BBQ pork ribs",19,"","",[10],[]],
+      ["Salsa para la carne","Sauce for your meat",2.5,"Chimichurri, salsa de pimienta o salsa del chef.","Chimichurri, pepper sauce or the chef's sauce.",[],[]]
+    ]},
+    {id:"postres", es:"Postres caseros", en:"Homemade desserts", ies:"Hechos en casa. Pregunta por el postre de la semana.", ien:"Made in-house. Ask about the dessert of the week.", items:[
+      ["Tarta de queso","Cheesecake",7,"La especialidad de la casa.","Our signature dessert.",[1,3,7,8],["fav","house"]],
+      ["Tiramisú","Tiramisu",7,"El clásico italiano, a nuestra manera.","The Italian classic, our way.",[1,3,7],[]],
+      ["Tarta de Kinder","Kinder cake",7,"Tarta de queso y chocolate Kinder, casera.","Homemade cheesecake with Kinder chocolate.",[1,3,7,8],[]],
+      ["Mousse de Nutella","Nutella mousse",7,"","",[1,3,7,8],[]],
+      ["Postre de la semana","Dessert of the week",7,"Cambia cada semana: pregúntanos.","It changes every week: just ask.",[],[]],
+      ["Helado","Ice cream",[["1 bola","1 scoop",2.5],["2 bolas","2 scoops",5]],"Fresa, vainilla, chocolate o turrón.","Strawberry, vanilla, chocolate or turrón (nougat).",[1,3,7,8],[]]
+    ]}
+  ];
+
+  var FAVS = [
+    ["pulpo","1774451606775-68df417107b3","Pulpo a la parrilla","Grilled octopus",22],
+    ["burger","1572448862527-d3c904757de6","Hamburguesa Chiringuito","Chiringuito burger",15],
+    ["chuleton","1614119068601-483274e9dcb7","Chuletón de vaca","Beef T-bone steak",80],
+    ["parrillada","1558030006-450675393462","Parrillada para 2","Mixed grill for 2",50],
+    ["nachos","1570466199120-80bba1eabad7","Nachos en la playa","Beach nachos",14,true],
+    ["mojito","1751919276818-8288b042c98d","Mojito","Mojito",9,true]
+  ];
+
+  /* Bebidas */
+  var COCKTAILS = [
+    ["Mojito","Mojito",[["Clásico","Classic",9],["Fresa, mango o maracuyá","Strawberry, mango or passion fruit",9.5]],"Menta, lima, azúcar moreno, angostura y ron.","Mint, lime, brown sugar, angostura and rum.",["fav"],"mojito"],
+    ["Caipiriña","Caipirinha",[["Clásica","Classic",9],["Fresa, mango o maracuyá","Strawberry, mango or passion fruit",9.5]],"Lima, azúcar y cachaça.","Lime, sugar and cachaça."],
+    ["Caipiroska","Caipiroska",[["Clásica","Classic",9],["Fresa, mango o maracuyá","Strawberry, mango or passion fruit",9.5]],"Lima, azúcar y vodka.","Lime, sugar and vodka."],
+    ["Daiquiri","Daiquiri",[["Clásico, fresa, mango o maracuyá","Classic, strawberry, mango or passion fruit",9.5]],"Ron, lima y azúcar.","Rum, lime and sugar."],
+    ["Piña colada","Piña colada",9.5,"Piña natural, coco, leche condensada y ron.","Fresh pineapple, coconut, condensed milk and rum."],
+    ["Sex on the Beach","Sex on the Beach",9.5,"Maracuyá, zumo de naranja, granadina y vodka.","Passion fruit, orange juice, grenadine and vodka."],
+    ["Margarita","Margarita",9,"Tequila, zumo de lima y Cointreau.","Tequila, lime juice and Cointreau."],
+    ["Pornstar Martini","Pornstar Martini",9.5,"Vodka de vainilla, maracuyá y un toque de espumoso.","Vanilla vodka, passion fruit and a splash of bubbles."],
+    ["Espresso Martini","Espresso Martini",9,"Vodka, licor de café y café recién hecho.","Vodka, coffee liqueur and fresh espresso."],
+    ["Bloody Mary","Bloody Mary",9.5,"Zumo de tomate y de limón, sal, pimienta, tabasco, salsa Worcestershire y vodka.","Tomato and lemon juice, salt, pepper, Tabasco, Worcestershire sauce and vodka."],
+    ["Tom Collins","Tom Collins",9.5,"Ginebra, zumo de limón, sirope de azúcar y soda.","Gin, lemon juice, sugar syrup and soda."],
+    ["Blue Lagoon","Blue Lagoon",9.5,"Vodka, blue curaçao, piña y Sprite.","Vodka, blue curaçao, pineapple and Sprite."],
+    ["Moscow Mule","Moscow Mule",9.5,"Vodka, lima y ginger beer.","Vodka, lime and ginger beer."],
+    ["Long Island","Long Island",9.5,"","" ],
+    ["Tequila Sunrise","Tequila Sunrise",9.5,"Tequila, zumo de naranja y granadina.","Tequila, orange juice and grenadine."],
+    ["Negroni","Negroni",9,"Ginebra, vermut rojo y Campari.","Gin, red vermouth and Campari."],
+    ["White Russian","White Russian",9,"Vodka, licor de café y nata.","Vodka, coffee liqueur and cream."],
+    ["Black Russian","Black Russian",9,"Vodka y licor de café.","Vodka and coffee liqueur."],
+    ["San Francisco","San Francisco",9,"",""],
+    ["Momento Vibrante","Momento Vibrante",9,"Cóctel de autor de la casa.","Our signature cocktail.",["house"]],
+    ["Mimosa","Mimosa",9,"Cava y zumo de naranja.","Cava and orange juice."],
+    ["Cóctel sin alcohol","Alcohol-free cocktail",7,"Pregúntanos y te lo preparamos al gusto.","Ask us and we'll make one to your taste."]
+  ];
+  var SPRITZ = [["Aperol Spritz","Aperol Spritz",7],["Limoncello Spritz","Limoncello Spritz",7],["Hugo Spritz","Hugo Spritz",9],["Tropical Spritz","Tropical Spritz",9]];
+
+  var WINES = {
+    tintos:[["Santalba","D.O.Ca. Rioja",17],["RR","D.O. Ribera del Duero",18],["López de Haro","D.O.Ca. Rioja",19],["Ramón Bilbao Crianza","D.O.Ca. Rioja",21],["La Planta","D.O. Ribera del Duero",24],["Matsu «El Pícaro»","D.O. Toro",25],["Carramimbre Crianza","D.O. Ribera del Duero",28],["Ramón Bilbao Edición Limitada","D.O.Ca. Rioja",28],["Mauro","Castilla y León",50],["Pago de Carraovejas","D.O. Ribera del Duero",55]],
+    blancos:[["Cuatro Rayas Pámpano Verdejo","D.O. Rueda",18],["Marina Alta","D.O. Alicante",19],["Esencia 27 semidulce","",19],["Ramón Bilbao Verdejo","D.O. Rueda",21],["Mar de Frades Albariño","D.O. Rías Baixas",30]],
+    rosados:[["Lágrimas","",17],["Esencia Rosé","",18],["Ramón Bilbao Rosado","D.O.Ca. Rioja",19]],
+    copas:[["Tinto: Santalba, López de Haro o RR","Red: Santalba, López de Haro or RR",3,5],["Blanco: Pámpano o Marina Alta","White: Pámpano or Marina Alta",3,5],["Blanco semidulce: Esencia 27","Semi-sweet white: Esencia 27",3.5,5],["Rosado: Esencia Rosé o Lágrimas","Rosé: Esencia Rosé or Lágrimas",3,5]],
+    burbujas:[["Benjamín Codorníu","Cava · 20 cl",5],["Castell d'Ordal","Cava",18],["Juvé & Camps","Cava",35],["G.H. Mumm","Champagne",55],["Veuve Clicquot","Champagne",70],["Moët & Chandon Impérial Brut","Champagne",80],["Moët & Chandon Impérial Rosé","Champagne",85]]
+  };
+
+  var BEER_TAP = [["Águila Dorada",2.8,3.8,10],["Heineken Silver",2.8,3.8,10],["Cruzcampo Export",3,4.5,null]];
+  var BEER_BOT = [["Estrella Galicia",3.5],["Estrella Galicia 1906",3.8],["Mahou Cinco Estrellas",3.5],["Heineken",3.5],["Águila sin filtrar",3.5],["Sol",3.5],["Budweiser",3.5],["Desperados",3.5],["Alhambra verde",3.8],["Alhambra roja",3.8],["Paulaner",4],["Guinness",4],["John Smith's",4]];
+  var CIDER = [["Strongbow","Strongbow",4],["Kopparberg fresa y lima","Kopparberg strawberry & lime",4.5],["Kopparberg frutas variadas","Kopparberg mixed fruit",4.5]];
+  var BEER_00 = [["Estrella Galicia 0,0 Tostada","Estrella Galicia 0.0 Tostada",3.5],["Heineken 0,0","Heineken 0.0",3.5],["Cerveza sin gluten","Gluten-free beer",3.5]];
+
+  var SOFT = [
+    ["Refrescos","Soft drinks",[["Coca-Cola / Zero","Coca-Cola / Zero",3],["Fanta naranja o limón","Fanta orange or lemon",3],["Sprite","Sprite",3],["Casera","Casera lemonade",3],["Bitter Kas","Bitter Kas",3],["Tónica Schweppes","Schweppes tonic",3],["Schweppes Hibiscus","Schweppes Hibiscus",3],["Ginger ale","Ginger ale",3],["Ginger beer","Ginger beer",3],["Aquarius naranja o limón","Aquarius orange or lemon",3.5],["Fuze Tea","Fuze Tea",3.5],["Red Bull","Red Bull",3.5]]],
+    ["Zumos y agua","Juice & water",[["Zumo de naranja natural","Fresh orange juice",4],["Zumo de naranja, piña, melocotón, manzana o tomate","Orange, pineapple, peach, apple or tomato juice",2.8],["Agua mediana","Water, medium",2.5],["Agua grande","Water, large",4],["Agua con gas Perrier","Perrier sparkling water",3]]],
+    ["Para refrescarse","Long & fresh",[["Tinto de verano (con Casera o limón)","Tinto de verano (red wine with lemonade)",4],["Jarra de tinto de verano","Jug of tinto de verano",12],["Calimocho","Calimocho (red wine & cola)",4],["Smirnoff Ice","Smirnoff Ice",4.5]]]
+  ];
+  var COFFEE = [["Café solo","Espresso",1.7],["Cortado","Cortado",1.8],["Café con leche","White coffee",1.9],["Americano","Americano",2],["Café latte","Café latte",2.15],["Ice latte","Iced latte",3,"Con leche de avena, 3,20 €.","With oat milk, €3.20."],["Café bombón","Café bombón (with condensed milk)",3],["Café en vaso","Coffee in a glass",3],["Capuchino","Cappuccino",4],["Carajillo","Carajillo (coffee with brandy)",4],["Café Chiringuito","Chiringuito coffee",5.5,"Café, leche condensada y Baileys.","Coffee, condensed milk and Baileys."],["Café irlandés","Irish coffee",5.5],["Café escocés","Scottish coffee",5.5],["Cola Cao","Cola Cao (hot chocolate milk)",2],["Manzanilla, menta poleo o té","Chamomile, pennyroyal mint or tea",1.8],["Té inglés","English breakfast tea",2],["Infusiones especiales","Speciality infusions",1.9,"Rooibos relax, frutos rojos, digest, jengibre y limón, frutos del bosque o té negro con chocolate y menta.","Rooibos relax, red berries, digest, ginger & lemon, forest fruits or black tea with chocolate and mint."],["Batido de fruta","Fruit milkshake",8,"Fresa, plátano o mango, con leche o bebida vegetal.","Strawberry, banana or mango, with milk or plant-based milk."]];
+
+  /* Copas: [marca, combinado, con hielo, chupito, premium] */
+  var SPIRITS = [
+    ["ginebra","Ginebra","Gin",[["Beefeater",8,5,4],["Bombay Sapphire",8,5,4],["Bombay Pressé",8,5,4],["Citadelle",8,null,null],["Gordon's",8,5,4],["Larios 12",8,5,4],["Puerto de Indias",8,5,4],["Seagram's",8,5,4],["Tanqueray",8,5,4],["Brockmans",11,8,6,1],["Bulldog",11,8,6,1],["G'Vine",11,8,6,1],["Hendrick's",11,8,6,1],["London Nº3",11,null,null,1],["Martin Miller's",11,8,6,1],["Nordés",11,8,6,1]]],
+    ["ron","Ron","Rum",[["Bacardí",8,5,4],["Barceló",8,5,4],["Brugal",8,5,4],["Cacique",8,5,4],["Captain Morgan",8,5,4],["Havana Club 3",8,null,null],["Havana Club 7",8,5,4],["Legendario",8,5,4],["Malibú",8,5,4],["Matusalem",8,5,4],["Santa Teresa",8,5,4],["Cacique 500",11,8,6,1],["Zacapa 23",15,8,6,1]]],
+    ["vodka","Vodka","Vodka",[["Eristoff",8,5,4],["Absolut",9,5,4],["Grey Goose",10,7,5,1]]],
+    ["whisky","Whisky","Whisky",[["Ballantine's",8,5,4],["Cutty Sark",8,5,4],["J&B",8,5,4],["Jameson",8,5,4],["Red Label",8,5,4],["Southern Comfort",8,5,4],["White Label",8,5,4],["Jack Daniel's",9,6,4],["Black Label",10,7,6],["Chivas Regal 12",10,7,6],["Dewar's 12",10,null,null],["Cardhu",12,9,6,1],["J&B 15",12,9,6,1],["Knockando",12,9,6,1],["Glenfiddich 12",14,9,6,1],["Johnnie Walker Gold Label",14,9,6,1],["Johnnie Walker Green Label",14,9,6,1],["Hibiki",15,9,6,1]]]
+  ];
+  var LIQ = [["Baileys",7,6,3.5],["Tía María",8,6,4],["Licor 43",8,6,4],["Amaretto Disaronno",8,6,4],["Jägermeister",8,6,3.5],["Anís del Mono",6,6,4],["Ricard",6,6,null],["Pacharán Baines",5,5,3],["Limoncello",5,5,3],["Orujo de hierbas Ruavieja",5,5,3],["Orujo blanco Ruavieja",5,5,3],["Crema de orujo Ruavieja",5,5,3],["Frangelico",4.5,4.5,3]];
+  var TEQ = [["José Cuervo",5,3],["Patrón Reposado",8,5],["Patrón Blanco",8,5],["Don Julio Reposado",8,5]];
+  var SHOTS = [["Jägerbomb","Jägerbomb",8,"Chupito 6 €","Shot €6"],["Baby Guinness","Baby Guinness",4.5],["Copa de tequila","Glass of tequila",8]];
+  var BRANDY = [["Veterano",5],["Magno",6],["Torres 5",7],["1866",8]];
+
+  /* ============ Render ============ */
+  var lang = "es", alSel = [], query = "";
+  var $ = function(id){ return document.getElementById(id); };
+  var T = function(es, en){ return lang === "es" ? es : en; };
+  function fp(v){ if (v === null || v === undefined) return ""; var s = (Math.round(v*100)/100).toFixed(v % 1 ? 2 : 0); return lang === "es" ? s.replace(".", ",") + " €" : "€" + s; }
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+  function norm(s){ return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]+/g,""); }
+
+  function dishHTML(it, dark){
+    var name = T(it[0], it[1]), desc = T(it[3]||"", it[4]||""), als = it[5]||[], tags = it[6]||[];
+    var price = Array.isArray(it[2]) ? "" : fp(it[2]);
+    var vars = Array.isArray(it[2]) ? '<ul class="vars">' + it[2].map(function(v){ return '<li><span>' + esc(T(v[0],v[1])) + '</span><span class="lead"></span><span class="price">' + fp(v[2]) + '</span></li>'; }).join("") + '</ul>' : "";
+    var meta = tags.filter(function(t){ return TAG[t]; }).map(function(t){ return '<span class="tag ' + TAG[t][2] + '">' + T(TAG[t][0], TAG[t][1]) + '</span>'; }).join("")
+             + als.map(function(a){ return '<span class="al' + (alSel.indexOf(a) > -1 ? " hit" : "") + '">' + T(AL[a][0], AL[a][1]) + '</span>'; }).join("");
+    var search = norm([it[0], it[1], it[3]||"", it[4]||""].join(" "));
+    return '<article class="dish" data-al="' + als.join(",") + '" data-s="' + esc(search) + '"' + (it[7] ? ' id="d-' + it[7] + '"' : "") + '>'
+      + '<div class="dish-top"><h4>' + esc(name) + '</h4>' + (price ? '<span class="lead"></span><span class="price">' + price + '</span>' : "") + '</div>'
+      + (desc ? '<p class="desc">' + esc(desc) + '</p>' : "") + vars
+      + (meta ? '<div class="meta">' + meta + '</div>' : "") + '</article>';
+  }
+  function miniHTML(name, price, small, s){
+    return '<div class="mini" data-s="' + esc(norm(s || name)) + '"><span>' + esc(name) + (small ? '<small>' + esc(small) + '</small>' : "") + '</span><span class="lead"></span><span class="price">' + fp(price) + '</span></div>';
+  }
+  function catHead(n, es, en, ies, ien){
+    return '<div class="cat-head"><span class="num">' + ("0" + n).slice(-2) + '</span><h3>' + T(es, en) + '</h3>' + (ies ? '<p>' + T(ies, ien) + '</p>' : "") + '</div>';
+  }
+  function table(caption, cols, rows){
+    return '<table class="tbl">' + (caption ? '<caption>' + caption + '</caption>' : "") + '<thead><tr>' + cols.map(function(c){ return '<th scope="col">' + c + '</th>'; }).join("") + '</tr></thead><tbody>'
+      + rows.map(function(r){ return '<tr data-s="' + esc(norm(r[0])) + '"><td>' + esc(r[0]) + (r.prem ? '<small>Premium</small>' : "") + '</td>' + r.slice(1).map(function(v){ return v === null || v === undefined ? '<td class="na">—</td>' : '<td>' + fp(v) + '</td>'; }).join("") + '</tr>'; }).join("")
+      + '</tbody></table>';
+  }
+
+  var CATS = [];
+  function render(){
+    CATS = [];
+    /* --- Comida --- */
+    var h = "";
+    FOOD.forEach(function(c, i){
+      CATS.push([c.id, T(c.es, c.en), "food"]);
+      h += '<section class="cat" id="' + c.id + '">' + catHead(i+1, c.es, c.en, c.ies, c.ien) + '<div class="list">' + c.items.map(function(it){ return dishHTML(it); }).join("") + '</div></section>';
+    });
+    $("food").innerHTML = h;
+
+    /* --- Bebidas --- */
+    var n = FOOD.length, d = "";
+    CATS.push(["cocteles", T("Cócteles","Cocktails"), "drink"]);
+    d += '<section class="cat" id="cocteles">' + catHead(++n, "Cócteles", "Cocktails", "Clásicos, spritz y versiones de fruta. Desde 7 € y hasta medianoche.", "Classics, spritzes and fruity twists. From €7, until midnight.")
+      + '<div class="cocktail-hero"><img loading="lazy" src="' + IMG("1719262883659-2dd4088b5977") + '" alt=""><div><b>' + T("Spritz al atardecer","Sunset spritz") + '</b><p>' + T("Para la primera ronda frente al mar:","For your first round by the sea:") + '</p><div class="flav">' + SPRITZ.map(function(s){ return '<span>' + s[0] + ' · ' + fp(s[2]) + '</span>'; }).join("") + '</div></div></div>'
+      + '<div class="cocktails">' + COCKTAILS.map(function(c){ return dishHTML([c[0], c[1], c[2], c[3], c[4], [], c[5], c[6]], true); }).join("") + '</div></section>';
+
+    CATS.push(["cervezas", T("Cervezas","Beer"), "drink"]);
+    d += '<section class="cat" id="cervezas">' + catHead(++n, "Cervezas y sidras", "Beer & cider", "Bien frías. Las de barril, también con limón, Sprite o Casera al mismo precio.", "Ice-cold. Draught beers also come with lemon, Sprite or lemonade at the same price.")
+      + '<div class="tbl-grid"><div>' + table(T("De barril","On tap"), [T("Cerveza","Beer"), T("Caña","Small"), "Pinta", T("Jarra","Jug")], BEER_TAP)
+      + '<p class="sub" style="margin-top:26px">' + T("Sidras","Cider") + '</p>' + CIDER.map(function(c){ return miniHTML(T(c[0],c[1]), c[2]); }).join("")
+      + '<p class="sub">' + T("Sin alcohol y sin gluten","Alcohol-free & gluten-free") + '</p>' + BEER_00.map(function(c){ return miniHTML(T(c[0],c[1]), c[2]); }).join("")
+      + '</div><div><p class="sub" style="margin-top:22px">' + T("En botellín","Bottled") + '</p>' + BEER_BOT.map(function(b){ return miniHTML(b[0], b[1]); }).join("") + '</div></div></section>';
+
+    CATS.push(["vinos", T("Vinos","Wine"), "drink"]);
+    var wl = function(arr){ return arr.map(function(w){ return miniHTML(w[0], w[2], w[1], w[0] + " " + w[1]); }).join(""); };
+    d += '<section class="cat" id="vinos">' + catHead(++n, "Vinos", "Wine", "Por botella o por copas.", "By the bottle or by the glass.")
+      + '<div class="grid3"><div><p class="sub">' + T("Tintos","Red") + '</p>' + wl(WINES.tintos) + '</div><div><p class="sub">' + T("Blancos","White") + '</p>' + wl(WINES.blancos) + '<p class="sub">' + T("Rosados","Rosé") + '</p>' + wl(WINES.rosados) + '</div><div>'
+      + table(T("Por copas","By the glass"), [T("Vino","Wine"), T("Copa","Glass"), T("Doble","Large")], WINES.copas.map(function(c){ return [T(c[0], c[1]), c[2], c[3]]; }))
+      + '</div></div></section>';
+
+    CATS.push(["burbujas", T("Cava y champagne","Cava & champagne"), "drink"]);
+    d += '<section class="cat" id="burbujas">' + catHead(++n, "Cava y champagne", "Cava & champagne", "Para brindar frente al mar.", "For a toast by the sea.")
+      + '<div class="grid3">' + [WINES.burbujas.slice(0,3), WINES.burbujas.slice(3,5), WINES.burbujas.slice(5)].map(function(g){ return '<div>' + g.map(function(w){ return miniHTML(w[0], w[2], w[1], w[0] + " " + w[1]); }).join("") + '</div>'; }).join("") + '</div></section>';
+
+    CATS.push(["refrescos", T("Refrescos","Soft drinks"), "drink"]);
+    d += '<section class="cat" id="refrescos">' + catHead(++n, "Refrescos, zumos y agua", "Soft drinks, juice & water", "", "")
+      + '<div class="grid3">' + SOFT.map(function(g){ return '<div><p class="sub">' + T(g[0], g[1]) + '</p>' + g[2].map(function(s){ return miniHTML(T(s[0], s[1]), s[2], "", s[0] + " " + s[1]); }).join("") + '</div>'; }).join("") + '</div></section>';
+
+    CATS.push(["cafes", T("Cafés","Coffee"), "drink"]);
+    d += '<section class="cat" id="cafes">' + catHead(++n, "Cafés, infusiones y batidos", "Coffee, tea & shakes", "Con leche de avena o descafeinado, sin suplemento. Con hielo, +0,10 €.", "Oat milk or decaf at no extra cost. Iced, +€0.10.")
+      + '<div class="list">' + COFFEE.map(function(c){ return c[3] ? dishHTML([c[0], c[1], c[2], c[3], c[4], [], []]) : '<div class="dish" data-s="' + esc(norm(c[0] + " " + c[1])) + '"><div class="dish-top"><h4>' + esc(T(c[0], c[1])) + '</h4><span class="lead"></span><span class="price">' + fp(c[2]) + '</span></div></div>'; }).join("") + '</div></section>';
+
+    CATS.push(["copas", T("Copas","Spirits"), "drink"]);
+    var cols = [T("Marca","Brand"), T("Combinado","Mixed"), T("Con hielo","On ice"), T("Chupito","Shot")];
+    d += '<section class="cat" id="copas">' + catHead(++n, "Copas", "Spirits", "Combinado con el refresco que prefieras, solo con hielo o en chupito.", "Mixed with the soft drink of your choice, on the rocks or as a shot.")
+      + '<div class="tbl-grid">' + SPIRITS.map(function(s){ return '<div>' + table(T(s[1], s[2]), cols, s[3].map(function(r){ var x = [r[0], r[1], r[2], r[3]]; x.prem = !!r[4]; return x; })) + '</div>'; }).join("") + '</div></section>';
+
+    CATS.push(["licores", T("Licores","Liqueurs"), "drink"]);
+    d += '<section class="cat" id="licores">' + catHead(++n, "Licores, chupitos y sobremesa", "Liqueurs, shots & digestifs", "", "")
+      + '<div class="tbl-grid"><div>' + table(T("Licores","Liqueurs"), [T("Licor","Liqueur"), T("Copa","Glass"), T("Con hielo","On ice"), T("Chupito","Shot")], LIQ)
+      + '</div><div>' + table("Tequila", ["Tequila", T("Con hielo","On ice"), T("Chupito","Shot")], TEQ)
+      + table(T("Coñac y brandy","Cognac & brandy"), [T("Marca","Brand"), T("Copa","Glass")], BRANDY)
+      + '<p class="sub" style="margin-top:22px">' + T("Para la fiesta","Party shots") + '</p>' + SHOTS.map(function(s){ return miniHTML(T(s[0], s[1]), s[2], s[3] ? T(s[3], s[4]) : ""); }).join("")
+      + '</div></div></section>';
+
+    $("drinks").innerHTML = d;
+
+    /* --- Chips --- */
+    var ch = "", lastType = "food";
+    CATS.forEach(function(c){ if (c[2] !== lastType){ ch += '<span class="chip sep" aria-hidden="true">|</span>'; lastType = c[2]; } ch += '<a class="chip' + (c[2] === "drink" ? " drink" : "") + '" href="#' + c[0] + '" data-id="' + c[0] + '">' + c[1] + '</a>'; });
+    $("chips").innerHTML = ch;
+
+    /* --- Favoritos --- */
+    $("favRow").innerHTML = FAVS.map(function(f){ return '<a class="fav" href="#d-' + f[0] + '"><img loading="lazy" src="' + IMG(f[1]) + '" alt=""><div><b>' + esc(T(f[2], f[3])) + '</b><span>' + (f[5] ? T("desde ","from ") : "") + fp(f[4]) + '</span></div></a>'; }).join("");
+
+    applyFilters(); observe();
+  }
+
+  /* ============ Filtros: búsqueda y alérgenos ============ */
+  function applyFilters(){
+    var q = norm(query.trim()), hidden = 0, anyVisible = false;
+    document.querySelectorAll("#food .dish").forEach(function(el){
+      var als = el.getAttribute("data-al") ? el.getAttribute("data-al").split(",").map(Number) : [];
+      var blocked = als.some(function(a){ return alSel.indexOf(a) > -1; });
+      var match = !q || el.getAttribute("data-s").indexOf(q) > -1;
+      if (blocked) hidden++;
+      el.classList.toggle("hide", blocked || !match);
+    });
+    document.querySelectorAll("#drinks .dish, #drinks .mini, #drinks tr[data-s]").forEach(function(el){
+      el.classList.toggle("hide", !!q && el.getAttribute("data-s").indexOf(q) === -1);
+    });
+    if (q){
+      document.querySelectorAll("#drinks .tbl").forEach(function(t){ t.classList.toggle("hide", !t.querySelector("tbody tr:not(.hide)")); });
+      document.querySelectorAll("#drinks .sub").forEach(function(s){ var nx = s.nextElementSibling, vis = false; while (nx && !nx.classList.contains("sub")){ if ((nx.classList.contains("mini") || nx.classList.contains("dish")) && !nx.classList.contains("hide")) vis = true; nx = nx.nextElementSibling; } s.classList.toggle("hide", !vis); });
+      document.querySelectorAll("#drinks .cocktail-hero").forEach(function(c){ c.classList.add("hide"); });
+    } else {
+      document.querySelectorAll("#drinks .tbl, #drinks .sub, #drinks .cocktail-hero").forEach(function(e){ e.classList.remove("hide"); });
+    }
+    document.querySelectorAll(".cat").forEach(function(c){
+      var vis = c.querySelector(".dish:not(.hide), .mini:not(.hide), tr[data-s]:not(.hide)");
+      c.classList.toggle("hide", !vis); if (vis) anyVisible = true;
+    });
+    ["comer","beber"].forEach(function(id){ var p = $(id); p.classList.toggle("hide", !p.querySelector(".cat:not(.hide)")); });
+    $("favs").classList.toggle("hide", !!q || alSel.length > 0);
+    $("empty").style.display = anyVisible ? "none" : "block";
+    document.querySelectorAll(".chip[data-id]").forEach(function(c){ var s = $(c.getAttribute("data-id")); c.classList.toggle("hide", !s || s.classList.contains("hide")); });
+    var note = $("fNote");
+    if (alSel.length){
+      var names = alSel.map(function(a){ return T(AL[a][0], AL[a][1]).toLowerCase(); }).join(", ");
+      note.innerHTML = T("Ocultamos " + hidden + " platos con: " + names + ".", "We're hiding " + hidden + " dishes with: " + names + ".") + '<button type="button" id="fClear">' + T("Quitar filtro","Remove filter") + '</button>';
+      note.style.display = "block";
+      $("fClear").onclick = function(){ alSel = []; syncAl(); };
+    } else note.style.display = "none";
+    $("alN").textContent = alSel.length;
+    $("alBtn").classList.toggle("on", alSel.length > 0);
+    $("searchBox").classList.toggle("has", !!query);
+  }
+
+  /* ============ Alérgenos (panel) ============ */
+  function renderAlGrid(){
+    $("alGrid").innerHTML = Object.keys(AL).map(function(k){ k = +k; return '<button type="button" class="al-opt" data-a="' + k + '" aria-pressed="' + (alSel.indexOf(k) > -1) + '"><i></i>' + T(AL[k][0], AL[k][1]) + '</button>'; }).join("");
+    document.querySelectorAll(".al-opt").forEach(function(b){ b.onclick = function(){ var a = +b.getAttribute("data-a"), i = alSel.indexOf(a); if (i > -1) alSel.splice(i, 1); else alSel.push(a); b.setAttribute("aria-pressed", i === -1); syncAl(true); }; });
+  }
+  function syncAl(keepGrid){
+    if (!keepGrid) renderAlGrid();
+    document.querySelectorAll("#food .dish").forEach(function(el){
+      el.querySelectorAll(".al").forEach(function(s){ s.classList.remove("hit"); });
+    });
+    render();
+  }
+  function openSheet(){ document.body.classList.add("sheet-open"); renderAlGrid(); }
+  function closeSheet(){ document.body.classList.remove("sheet-open"); }
+  $("alBtn").onclick = openSheet; $("sheetBg").onclick = closeSheet;
+  $("alDone").onclick = function(){ closeSheet(); var c = $("comer"); if (alSel.length && c) c.scrollIntoView({behavior:"smooth"}); };
+  $("alClear").onclick = function(){ alSel = []; syncAl(); };
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape") closeSheet(); });
+
+  /* ============ Búsqueda ============ */
+  var q = $("q");
+  q.addEventListener("input", function(){ query = q.value; applyFilters(); });
+  $("qClear").onclick = function(){ q.value = ""; query = ""; applyFilters(); q.focus(); };
+
+  /* ============ Sección activa en los chips ============ */
+  var io;
+  function observe(){
+    if (io) io.disconnect();
+    if (!("IntersectionObserver" in window)) return;
+    io = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if (!en.isIntersecting) return;
+        var id = en.target.id;
+        document.querySelectorAll(".chip[data-id]").forEach(function(c){ var on = c.getAttribute("data-id") === id; c.classList.toggle("on", on); if (on){ var bar = $("chips"); bar.scrollTo({left: bar.scrollLeft + c.getBoundingClientRect().left - bar.getBoundingClientRect().left - 16, behavior:"smooth"}); } });
+      });
+    }, { rootMargin:"-45% 0px -50% 0px" });
+    document.querySelectorAll(".cat").forEach(function(s){ io.observe(s); });
+  }
+
+  /* ============ Idioma ============ */
+  function setLang(l){
+    lang = l;
+    document.documentElement.lang = l;
+    document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.lang === l ? "true" : "false"); });
+    q.placeholder = T("Buscar: pulpo, mojito…", "Search: octopus, mojito…");
+    q.setAttribute("aria-label", T("Buscar en la carta", "Search the menu"));
+    document.title = T("Carta · Chiringuito Beach Benidorm", "Menu · Chiringuito Beach Benidorm");
+    $("bookCta").href = "https://wa.me/34660192519?text=" + encodeURIComponent(T("¡Hola! Quería reservar una mesa.", "Hi! I'd like to book a table."));
+    render(); renderAlGrid();
+    try { localStorage.setItem("cbb-lang", l); } catch(e){}
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.dataset.lang); }); });
+  var saved = null; try { saved = localStorage.getItem("cbb-lang"); } catch(e){}
+  var urlLang = (location.search.match(/[?&]lang=(es|en)/) || [])[1];
+  setLang(urlLang || saved || ((navigator.language || "es").toLowerCase().indexOf("en") === 0 ? "en" : "es"));
+
+  /* Altura real de la barra de controles para los anclajes */
+  function setCtrlH(){ document.documentElement.style.setProperty("--ctrl", $("ctrl").offsetHeight + "px"); }
+  window.addEventListener("resize", setCtrlH); setCtrlH();
+})();
+</script>
+</body>
+</html>

@@ -35,7 +35,7 @@
     "opens": "11:00",
     "closes": "23:59"
   }],
-  "hasMenu": "https://smartmenu.agorapos.com/?id=4tktbfeg",
+  "hasMenu": "https://yacinedesign.github.io/chiringuito-beach-benidorm/carta/",
   "acceptsReservations": true,
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "1385" },
   "sameAs": ["https://www.instagram.com/chiringuitobeachbenidorm/"]
@@ -394,8 +394,8 @@ details p{margin:0 0 22px;color:var(--muted);max-width:60ch}
     </div>
 
     <div class="menu-foot rv">
-      <span><span lang="es">Carta completa con bebidas, vinos y los 14 alérgenos en nuestra carta digital.</span><span lang="en">Full menu with drinks, wines and the 14 allergens in our digital menu.</span></span>
-      <a class="btn btn-ghost btn-sm" href="https://smartmenu.agorapos.com/?id=4tktbfeg" target="_blank" rel="noopener"><span lang="es">Abrir carta digital</span><span lang="en">Open digital menu</span> →</a>
+      <span><span lang="es">Carta completa con vinos, cervezas y copas, buscador y filtro por alérgenos.</span><span lang="en">Full menu with wine, beer and spirits, search and an allergen filter.</span></span>
+      <a class="btn btn-ember btn-sm" href="carta/"><span lang="es">Ver la carta completa</span><span lang="en">See the full menu</span> →</a>
     </div>
   </div>
 </section>
@@ -543,7 +543,7 @@ details p{margin:0 0 22px;color:var(--muted);max-width:60ch}
       </details>
       <details>
         <summary><span lang="es">¿Tenéis información de alérgenos?</span><span lang="en">Do you have allergen information?</span><i></i></summary>
-        <p><span lang="es">Sí. En nuestra carta digital cada plato indica sus alérgenos y puedes filtrar los que no tomas. Si tienes dudas, díselo al camarero o indícalo en la reserva.</span><span lang="en">Yes. Every dish in our digital menu lists its allergens, and you can filter out the ones you avoid. If in doubt, tell your waiter or add it to your booking.</span></p>
+        <p><span lang="es">Sí. En <a href="carta/">nuestra carta</a> cada plato indica sus alérgenos y puedes filtrar los que no tomas. Si tienes dudas, díselo al camarero o indícalo en la reserva.</span><span lang="en">Yes. Every dish in <a href="carta/">our menu</a> lists its allergens, and you can filter out the ones you avoid. If in doubt, tell your waiter or add it to your booking.</span></p>
       </details>
       <details>
         <summary><span lang="es">¿De dónde es la carne?</span><span lang="en">Where is your beef from?</span><i></i></summary>
@@ -711,7 +711,7 @@ details p{margin:0 0 22px;color:var(--muted);max-width:60ch}
         imgEl.alt = lang === "es" ? cat.capEs : cat.capEn;
         capEl.innerHTML = '<span lang="es">' + cat.capEs + '</span><span lang="en">' + cat.capEn + '</span>';
         var t = document.getElementById("tab-" + cat.id);
-        if (t.scrollIntoView && tabsEl.scrollWidth > tabsEl.clientWidth){ tabsEl.scrollTo({left: t.offsetLeft - 16, behavior:"smooth"}); }
+        if (tabsEl.scrollWidth > tabsEl.clientWidth){ tabsEl.scrollTo({left: tabsEl.scrollLeft + t.getBoundingClientRect().left - tabsEl.getBoundingClientRect().left - 16, behavior:"smooth"}); }
       }
     });
   }
